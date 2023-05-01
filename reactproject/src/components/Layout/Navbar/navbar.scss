@@ -1,0 +1,58 @@
+@import "../../../style/global.scss";
+
+.desktopnav {
+  .navtop {
+    background: #17181c;
+    .container {
+      .row {
+        .navleft {
+          display: flex;
+          gap: 11px;
+          .leftone {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 11px;
+            border-right: 2px solid #414249;
+            padding-right: 14px;
+            p {
+              color: #7e93fb;
+              font-size: 14px;
+              cursor: pointer;
+              line-height: 16px;
+              font-weight: 500;
+              margin: 0;
+              padding-top: 3px;
+              transition: .3s ease-in-out;
+              &:hover{
+                text-decoration: underline;
+              }
+            }
+          }
+          .lefttwo {
+            h1 {
+              margin: 0;
+              font-size: 14px;
+              color: #fff;
+            }
+          }
+        }
+        .navright {
+          p {
+            color: #7e93fb;
+            font-size: 14px;
+            font-weight: 500;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            cursor: pointer;
+            transition: .3s ease-in-out;
+              &:hover{
+                text-decoration: underline;
+              }
+          }
+        }
+      }
+    }
+  }
+}
