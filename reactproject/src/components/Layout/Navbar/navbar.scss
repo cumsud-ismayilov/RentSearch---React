@@ -23,8 +23,8 @@
               font-weight: 500;
               margin: 0;
               padding-top: 3px;
-              transition: .3s ease-in-out;
-              &:hover{
+              transition: 0.3s ease-in-out;
+              &:hover {
                 text-decoration: underline;
               }
             }
@@ -46,10 +46,76 @@
             align-items: flex-end;
             justify-content: flex-end;
             cursor: pointer;
-            transition: .3s ease-in-out;
-              &:hover{
-                text-decoration: underline;
+            transition: 0.3s ease-in-out;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+  .navbottom {
+    background-color: #000;
+    .container {
+      .row {
+        .pagelogo {
+          width: 108px;
+          height: 37px;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+        .navmiddle{
+          ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 52px;
+            .home{
+              list-style: none;
+              cursor: pointer;
+            
+            
+              a{
+               text-decoration: none;
+               
               }
+            }
+            .solution{
+              list-style: none;
+              cursor: pointer;
+              a{
+                text-decoration: none;
+              }
+            }
+            .company{
+              list-style: none;
+              cursor: pointer;
+              a{
+                text-decoration: none;
+              }
+            }
+            .blog{
+              list-style: none;
+              cursor: pointer;
+             
+            
+              a{
+                text-decoration: none;
+              }
+            }
+            .reser{
+              list-style: none;
+              cursor: pointer;
+              a{
+                text-decoration: none;
+              }
+            }
           }
         }
       }

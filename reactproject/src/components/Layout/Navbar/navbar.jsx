@@ -30,19 +30,19 @@ const navbar = () => {
       <div className='navbottom'>
          <div className='container'>
            <div className='row'>
-             <div className='col-xl-2'>
+             <div className='col-xl-2 g-3'>
                <div className='pagelogo'>
-                  <img src="https://solutions.rent.com/wp-content/uploads/2022/06/2x-res.png" />
+                  <img src="https://solutions.rent.com/wp-content/uploads/2022/06/2x-res.png"/>
                </div>
              </div>
-             <div className='col-xl-6'>
-               <div className='navbottom'>
+             <div className='col-xl-6 g-3'>
+               <div className='navmiddle'>
                  <ul>
-                  <li><Link to="/">Home</Link></li>
-                  <li><Link>Solutions</Link></li>
-                  <li><Link>Company</Link></li>
-                  <li><Link to="/blog">Blog</Link></li>
-                  <li><Link>Reseurces</Link></li>
+                  <li className='home'><Link to="/">Home</Link></li>
+                  <li className='solution'><Link>Solutions</Link></li>
+                  <li className='company'><Link>Company</Link></li>
+                  <li className='blog'><Link to="/blog">Blog</Link></li>
+                  <li className='reser'><Link>Reseurces</Link></li>
                   </ul>
                </div>
              </div>
