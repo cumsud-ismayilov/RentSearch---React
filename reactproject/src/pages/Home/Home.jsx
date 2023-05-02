@@ -89,9 +89,21 @@ const Home = () => {
                      <h3>Target Effectively</h3>
                      <h4>Unparalleled ad targeting thanks to our leading technology and proprietary first-party data from our marketplaces.</h4>
                   </div>
-                  <h5>- Boost Performance</h5>
-                  <h5>- Reduce Risk</h5>
+                  <h5>- <span>Boost Performance</span></h5>
+                  <h6>- <span>Reduce Risk</span></h6>
                   <button>Get RentSearch.</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section className='engage'>
+      <div className='container'>
+         <div className='row'>
+            <div className='col-xl-12 g-5'>
+               <div className='featuresword'>
+               <h2><MdOutlineCompareArrows  color='#fff' size={19} /></h2>
+               <h3>RentSearch. features </h3>
                </div>
             </div>
          </div>

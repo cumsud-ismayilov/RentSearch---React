@@ -186,6 +186,9 @@ main {
     background-color: #000;
     .container {
       .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         .marketbackground {
           position: relative;
           background-color: #7e93fb;
@@ -252,6 +255,9 @@ main {
           }
         }
         .award {
+          padding-left: 6rem;
+          padding-top: 8rem;
+          padding-bottom: 9rem;
           .reactword {
             display: flex;
             align-items: center;
@@ -281,16 +287,88 @@ main {
             }
           }
           p {
+            font-family: "Inter Tight", sans-serif;
+            font-size: 19px;
+            color: #fff;
+            width: 434px;
+            word-spacing: 2px;
+            padding-top: 26px;
+            font-weight: 600;
           }
           .target {
+            background-color: #17181c;
+            padding: 23px 19px;
+            border-left: 8px solid #4561ec;
+            width: 478px;
             h3 {
+              font-family: $default-font;
+              color: #7e93fb;
+              font-style: normal;
+              font-size: 20px;
+              cursor: pointer;
+              letter-spacing: 1px;
+              font-weight: 600;
             }
             h4 {
+              font-family: "Inter Tight", sans-serif;
+              font-size: 17px;
+              color: #fff;
+              width: 434px;
+              word-spacing: 2px;
+              padding-top: 11px;
             }
           }
           h5 {
+            font-family: "Inter Tight", sans-serif;
+            font-size: 19px;
+            color: #4561ec;
+            width: 434px;
+            word-spacing: 2px;
+            padding-top: 26px;
+            font-weight: 600;
+            span {
+              cursor: pointer;
+              color: #fff;
+              transition: 0.5s ease-in-out;
+              &:hover {
+                color: #4561ec;
+              }
+            }
+          }
+          h6 {
+            font-family: "Inter Tight", sans-serif;
+            font-size: 19px;
+            color: #4561ec;
+            width: 434px;
+            word-spacing: 2px;
+            padding-top: 9px;
+            font-weight: 600;
+            span {
+              cursor: pointer;
+              color: #fff;
+              transition: 0.5s ease-in-out;
+              &:hover {
+                color: #4561ec;
+              }
+            }
           }
           button {
+            width: 154px;
+            height: 56px;
+            background: #4561ec;
+            border-radius: 4px;
+            border: 1px solid transparent;
+            font-size: 17px;
+            line-height: 17px;
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            filter: brightness(1);
+            margin-top: 40px;
+            &:hover {
+              filter: brightness(0.7);
+            }
           }
         }
       }
