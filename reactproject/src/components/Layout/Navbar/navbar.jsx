@@ -1,7 +1,8 @@
 import React from 'react';
-import styled from './navbar.scss';
+import  './navbar.scss';
 import { Link } from 'react-router-dom';
 import { BsHeadphones } from "react-icons/bs";
+import { RxChevronDown } from "react-icons/rx";
 const navbar = () => {
   return (
     <nav className='desktopnav'>
@@ -39,12 +40,18 @@ const navbar = () => {
                <div className='navmiddle'>
                  <ul>
                   <li className='home'><Link to="/">Home</Link></li>
-                  <li className='solution'><Link>Solutions</Link></li>
-                  <li className='company'><Link>Company</Link></li>
+                  <li className='solution'><Link>Solutions</Link><RxChevronDown size={17} cursor={"pointer"} color='#7E93FB'/></li>
+                  <li className='company'><Link>Company</Link><RxChevronDown size={17} cursor={"pointer"} color='#7E93FB'/></li>
                   <li className='blog'><Link to="/blog">Blog</Link></li>
-                  <li className='reser'><Link>Reseurces</Link></li>
+                  <li className='reser'><Link>Reseurces</Link><RxChevronDown size={17} cursor={"pointer"} color='#7E93FB'/></li>
                   </ul>
                </div>
+             </div>
+             <div className='col-xl-4 g-3'>
+                <div className='loginandtouch'>
+                   <p>Client login</p>
+                   <button>Get in touch</button>
+                </div>
              </div>
            </div>
          </div>
