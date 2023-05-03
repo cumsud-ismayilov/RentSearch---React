@@ -60,10 +60,103 @@ const About = () => {
             </div>
           </div>
           <div className='row'>
-             <div className=''></div>
+             <div className='col-xl-3 g-3'>
+                <div className='core-item'>
+                   <img src="	https://solutions.rent.com/wp-content/uploads/2023/01/1-Core-Values_Experience-SM.png" alt="img2" />
+                   <p>Obsessed with Experience</p>
+                   <div className='corehover'>
+                     <h4>Good is never enough. For our renters, clients, and people, we strive to deliver the best experience in everything we do and everything we deliver. We sweat the small stuff.</h4>
+                   </div>
+                </div>
+             </div>
+             <div className='col-xl-3 g-3'>
+                <div className='core-item'>
+                   <img src="	https://solutions.rent.com/wp-content/uploads/2023/01/2-Core-Values_Integrity-SM.png" alt="img2" />
+                   <p>Act with Integrity</p>
+                   <div className='corehover'>
+                     <h4>Good is never enough. For our renters, clients, and people, we strive to deliver the best experience in everything we do and everything we deliver. We sweat the small stuff.</h4>
+                   </div>
+                </div>
+             </div>
+             <div className='col-xl-3 g-3'>
+                <div className='core-item'>
+                   <img src="https://solutions.rent.com/wp-content/uploads/2023/01/3-Core-Values_Grit-SM-2.png" alt="img2" />
+                   <p>Obsessed with Experience</p>
+                   <div className='corehover'>
+                     <h4>Good is never enough. For our renters, clients, and people, we strive to deliver the best experience in everything we do and everything we deliver. We sweat the small stuff.</h4>
+                   </div>
+                </div>
+             </div>
+             <div className='col-xl-3 g-3'>
+                <div className='core-item'>
+                   <img src="	https://solutions.rent.com/wp-content/uploads/2023/01/4-Core-Values_We-SM.png" alt="img2" />
+                   <p>Obsessed with Experience</p>
+                   <div className='corehover'>
+                     <h4>Good is never enough. For our renters, clients, and people, we strive to deliver the best experience in everything we do and everything we deliver. We sweat the small stuff.</h4>
+                   </div>
+                </div>
+             </div>
+             <div className='col-xl-3 g-3'>
+                <div className='core-item'>
+                   <img src="	https://solutions.rent.com/wp-content/uploads/2023/01/5-Core-Values_Matter-SM.png" alt="img2" />
+                   <p>Obsessed with Experience</p>
+                   <div className='corehover'>
+                     <h4>Good is never enough. For our renters, clients, and people, we strive to deliver the best experience in everything we do and everything we deliver. We sweat the small stuff.</h4>
+                   </div>
+                </div>
+             </div>
+             <div className='col-xl-3 g-3'>
+                <div className='core-item'>
+                   <img src="https://solutions.rent.com/wp-content/uploads/2023/01/6-Core-Values_Forward-SM.png" alt="img2" />
+                   <p>Obsessed with Experience</p>
+                   <div className='corehover'>
+                     <h4>Good is never enough. For our renters, clients, and people, we strive to deliver the best experience in everything we do and everything we deliver. We sweat the small stuff.</h4>
+                   </div>
+                </div>
+             </div>
+             <div className='col-xl-3 g-3'>
+                <div className='core-item'>
+                   <img src="	https://solutions.rent.com/wp-content/uploads/2023/01/7-Core-Values_Why-SM.png" alt="img2" />
+                   <p>Obsessed with Experience</p>
+                   <div className='corehover'>
+                     <h4>Good is never enough. For our renters, clients, and people, we strive to deliver the best experience in everything we do and everything we deliver. We sweat the small stuff.</h4>
+                   </div>
+                </div>
+             </div>
+             <div className='col-xl-3 g-3'>
+                <div className='core-item'>
+                   <img src="	https://solutions.rent.com/wp-content/uploads/2023/01/8-Core-Values_Support-SM.png" alt="img2" />
+                   <p>Obsessed with Experience</p>
+                   <div className='corehover'>
+                     <h4>Good is never enough. For our renters, clients, and people, we strive to deliver the best experience in everything we do and everything we deliver. We sweat the small stuff.</h4>
+                   </div>
+                </div>
+             </div>
           </div>
          </div>
       </section>
+      <section className='browse'>
+      <div className='container'>
+         <div className='row'>
+            <div className='col-xl-12 g-4'>
+               <div className='browseword'>
+                  <p>Discover your next resident on our network</p>
+                  <div className='browseimgs'>
+                     <div className='img1'>
+                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/BrandRent-TypePrimary-Logo-Saturation1-Color-ColorBlack-1-3.png"/>
+                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/g10-12.png"/>
+                     </div>
+                     <div className='img2'>
+                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/g10-13.png"/>
+                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/g10-14.png"/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         
+         </div>
+      </div>
+   </section>
     </main>
   )
 }
