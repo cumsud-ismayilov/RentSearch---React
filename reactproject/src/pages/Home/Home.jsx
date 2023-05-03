@@ -155,6 +155,38 @@ const Home = () => {
                      <li>•  98-99% occupancy rates</li>
                   </ul>
                   <button>Download Now <HiOutlineDownload/></button>
+                  <img src="https://solutions.rent.com/wp-content/uploads/2022/10/serena-yang-transparent.png"/>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section className='browse'>
+      <div className='container'>
+         <div className='row'>
+            <div className='col-xl-12 g-4'>
+               <div className='browseword'>
+                  <p>Discover your next resident on our network</p>
+                  <div className='browseimgs'>
+                     <div className='img1'>
+                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/BrandRent-TypePrimary-Logo-Saturation1-Color-ColorBlack-1-3.png"/>
+                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/g10-12.png"/>
+                     </div>
+                     <div className='img2'>
+                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/g10-13.png"/>
+                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/g10-14.png"/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div className='col-xl-12 g-4'>
+               <div className='browsenotes'>
+                  <p>¹ Rent. Renter Survey 2021.</p>
+                  <p>² Rent. Internal Data, December 2021 – April 2022. </p>
+                  <p>⁴ Rent. Internal Data, January 2020 – March 2022 (as compared to Wordstream Real Estate Advertising Benchmark, January 2022).</p>
+                  <p>³ Rent. Internal Data, December 2021 – April 2022 (as compared to Wordstream Google Adwords Industry Benchmarks, February 2022).  </p>
+                  <p>⁵ Rent. Internal Data, 2021.</p>
+                  <p>⁶ Rent. Internal Data, January – April 2022.</p>
                </div>
             </div>
          </div>

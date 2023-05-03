@@ -427,8 +427,13 @@ main {
   }
   .study {
     background-color: #fff;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     .container {
       .row {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
         .driveword {
           p {
             font-family: $default-font;
@@ -450,6 +455,7 @@ main {
         .boosted {
           padding: 58px 8px 67px 45px;
           background-color: #4561ec;
+          position: relative;
           .west {
             display: flex;
             align-items: baseline;
@@ -495,12 +501,69 @@ main {
             border: 1px solid transparent;
             margin-left: 32px;
             cursor: pointer;
-            transition: .5s ease-in-out;
-            &:hover{
-              background: #22389C;
+            transition: 0.5s ease-in-out;
+            &:hover {
+              background: #22389c;
               transition: all 0.3s ease-out;
               color: #fff;
             }
+          }
+          img {
+            width: 322px;
+            height: 301px;
+            position: absolute;
+            bottom: 0;
+            right: 1px;
+          }
+        }
+      }
+    }
+  }
+  .browse {
+    .container {
+      .row {
+        .browseword {
+          padding: 5rem 5rem 2rem 9rem;
+          background-color: #f4f6ff;
+          gap: 94px;
+          display: flex;
+          align-items: center;
+
+          p {
+            font-family: $default-font;
+            font-size: 52px;
+            word-spacing: 2px;
+            font-weight: 600;
+            color: #000;
+            width: 403px;
+          }
+          .browseimgs {
+            display: flex;
+            flex-direction: column;
+            gap: 66px;
+            .img1 {
+              display: flex;
+              align-items: center;
+              gap: 97px;
+            }
+            .img2 {
+              display: flex;
+              align-items: center;
+              gap: 97px;
+            }
+          }
+        }
+        .browsenotes {
+          padding-top: 4rem;
+          padding-bottom: 4rem;
+
+          p {
+            font-family: $default-font;
+            font-size: 13px;
+            line-height: 22px;
+            color: #000;
+            // letter-spacing: 1px;
+            margin: 0;
           }
         }
       }
