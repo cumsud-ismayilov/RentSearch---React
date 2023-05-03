@@ -2,6 +2,7 @@ import React from 'react'
 import "../Home/home.scss";
 import {MdOutlineCompareArrows} from "react-icons/md";
 import { HiArrowSmDown } from "react-icons/hi";
+import { HiOutlineDownload } from "react-icons/hi";
 const Home = () => {
   return (
    <main>
@@ -128,6 +129,32 @@ const Home = () => {
                <div className='launchtittle'>
                   <p>Launch quickly</p>
                   <h4>We build and publish your ads within one week to save you time.</h4>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section className='study'>
+      <div className='container'>
+         <div className='row'>
+            <div className='col-xl-6 g-4'>
+               <div className='driveword'>
+                  <p>RentSearch. drives results</p>
+                  <h3>Serena Y. from WestCorp went from ineffective ads to more conversions and higher traffic with RentSearch.</h3>
+               </div>
+            </div>
+            <div className='col-xl-6 g-4'>
+               <div className='boosted'>
+                  <div className='west'>
+                      <h2><MdOutlineCompareArrows  color='#fff' size={19} /></h2>
+                      <p>See how RentSearch. boosted conversions and occupancy for WestCorp</p>
+                  </div>
+                  <ul>
+                     <li>•  34% higher conversion rates</li>
+                     <li>•  15-20% higher click-through rate</li>
+                     <li>•  98-99% occupancy rates</li>
+                  </ul>
+                  <button>Download Now <HiOutlineDownload/></button>
                </div>
             </div>
          </div>

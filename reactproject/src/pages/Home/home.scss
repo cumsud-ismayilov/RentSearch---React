@@ -386,40 +386,121 @@ main {
           align-items: center;
           gap: 8px;
           cursor: pointer;
-          &:hover{
-            h2{
+          &:hover {
+            h2 {
               opacity: 1;
             }
           }
           h2 {
             opacity: 0;
             cursor: pointer;
-            transition: .3s ease-in-out;
+            transition: 0.3s ease-in-out;
           }
           h3 {
             font-family: $default-font;
             font-size: 47px;
             color: #fff;
             word-spacing: 2px;
-             font-weight: 600;
+            font-weight: 600;
           }
         }
-        .launchtittle{
+        .launchtittle {
           padding: 62px 50px 32px;
-          background-color: #17181C;
-          p{
+          background-color: #17181c;
+          p {
             font-family: $default-font;
             font-size: 20px;
             color: #fff;
             word-spacing: 2px;
-             font-weight: 600;
+            font-weight: 600;
           }
-          h4{
+          h4 {
             font-family: $default-font;
             font-size: 19px;
             color: #fff;
             word-spacing: 2px;
-             font-weight: 400
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+  .study {
+    background-color: #fff;
+    .container {
+      .row {
+        .driveword {
+          p {
+            font-family: $default-font;
+            font-size: 40px;
+            word-spacing: 2px;
+            font-weight: 600;
+            color: #000;
+            width: 450px;
+          }
+          h3 {
+            font-family: $default-font;
+            font-size: 19px;
+            color: #000;
+            word-spacing: 2px;
+            font-weight: 400;
+            width: 465px;
+          }
+        }
+        .boosted {
+          padding: 58px 8px 67px 45px;
+          background-color: #4561ec;
+          .west {
+            display: flex;
+            align-items: baseline;
+            gap: 4px;
+            &:hover {
+              h2 {
+                opacity: 1;
+              }
+            }
+            h2 {
+              opacity: 0;
+            }
+            p {
+              font-family: $default-font;
+              font-size: 32px;
+              color: #fff;
+              word-spacing: 2px;
+              font-weight: 600;
+              width: 460px;
+            }
+          }
+          ul {
+            li {
+              list-style: none;
+              font-family: $default-font;
+              font-size: 16px;
+              color: #fff;
+              word-spacing: 2px;
+              font-weight: 500;
+            }
+          }
+          button {
+            font-family: $default-font;
+            font-size: 15px;
+            line-height: 18px;
+            font-weight: 600;
+            letter-spacing: 0.01em;
+            color: #4561ec;
+            transition: all 0.3s ease-out;
+            padding: 18px 24px;
+            background-color: #fff;
+            border-radius: 4px;
+            border: 1px solid transparent;
+            margin-left: 32px;
+            cursor: pointer;
+            transition: .5s ease-in-out;
+            &:hover{
+              background: #22389C;
+              transition: all 0.3s ease-out;
+              color: #fff;
+            }
           }
         }
       }
