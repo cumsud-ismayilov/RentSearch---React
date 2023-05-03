@@ -106,6 +106,30 @@ const Home = () => {
                <h3>RentSearch. features </h3>
                </div>
             </div>
+            <div className='col-xl-4 g-5'>
+               <div className='launchtittle'>
+                  <p>Launch quickly</p>
+                  <h4>We build and publish your ads within one week to save you time.</h4>
+               </div>
+            </div>
+            <div className='col-xl-4 g-5'>
+               <div className='launchtittle'>
+                  <p>Launch quickly</p>
+                  <h4>We build and publish your ads within one week to save you time.</h4>
+               </div>
+            </div>
+            <div className='col-xl-4 g-5'>
+               <div className='launchtittle'>
+                  <p>Launch quickly</p>
+                  <h4>We build and publish your ads within one week to save you time.</h4>
+               </div>
+            </div>
+            <div className='col-xl-4 g-5'>
+               <div className='launchtittle'>
+                  <p>Launch quickly</p>
+                  <h4>We build and publish your ads within one week to save you time.</h4>
+               </div>
+            </div>
          </div>
       </div>
    </section>

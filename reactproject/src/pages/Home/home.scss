@@ -184,6 +184,8 @@ main {
   }
   .marketplace {
     background-color: #000;
+    margin-top: 8rem;
+
     .container {
       .row {
         display: flex;
@@ -369,6 +371,55 @@ main {
             &:hover {
               filter: brightness(0.7);
             }
+          }
+        }
+      }
+    }
+  }
+  .engage {
+    background-color: #000;
+    padding-bottom: 7rem;
+    .container {
+      .row {
+        .featuresword {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          cursor: pointer;
+          &:hover{
+            h2{
+              opacity: 1;
+            }
+          }
+          h2 {
+            opacity: 0;
+            cursor: pointer;
+            transition: .3s ease-in-out;
+          }
+          h3 {
+            font-family: $default-font;
+            font-size: 47px;
+            color: #fff;
+            word-spacing: 2px;
+             font-weight: 600;
+          }
+        }
+        .launchtittle{
+          padding: 62px 50px 32px;
+          background-color: #17181C;
+          p{
+            font-family: $default-font;
+            font-size: 20px;
+            color: #fff;
+            word-spacing: 2px;
+             font-weight: 600;
+          }
+          h4{
+            font-family: $default-font;
+            font-size: 19px;
+            color: #fff;
+            word-spacing: 2px;
+             font-weight: 400
           }
         }
       }
