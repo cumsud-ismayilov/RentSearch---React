@@ -1,0 +1,143 @@
+@import "../../style/global.scss";
+@import "../../style/partials/varaible.scss";
+main {
+  .aboutus {
+    background-color: #000;
+    .container {
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 14px;
+        
+        .about-us-text {
+          .text1 {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            cursor: pointer;
+            &:hover{
+               h2{
+                opacity: 1;
+               }
+            }
+            h2 {
+                opacity: 0;
+                transition: .3s ease-in-out;
+            }
+            p {
+              font-family: $default-font;
+              font-weight: 500;
+              font-size: 74px;
+              letter-spacing: -.03em;
+              color: #fff;
+            }
+          }
+          h3 {
+            font-family: $default-font;
+            font-weight: 500;
+            font-size: 53px;
+            letter-spacing: -.03em;
+            color: #fff;
+          }
+          h4 {
+            font-family: $default-font;
+            font-weight: 500;
+            font-size: 53px;
+            letter-spacing: -.03em;
+            color: #fff;
+            padding-top: 51px;
+          }
+        }
+      }
+    }
+  }
+  .reseurces{
+    background-color: #000;
+    padding-top: 7rem;
+    
+    .container{
+        .row{
+            border-bottom: 2px solid #abb8c3;
+            padding-bottom: 6rem;
+        
+            .stoked{
+                width: 628px;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+            .images{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding-top: 16rem;
+                img{
+                    width: 154px;
+                    height: 60px;
+                    cursor: pointer;
+                    transition: .3s ease-in-out;
+                    filter: brightness(1);
+                    &:hover{
+                        filter: brightness(0.5);
+                    }
+                }
+            }
+            .stoked2{
+                background-position: center;
+                background-size: cover;
+               background-image: url(https://solutions.rent.com/wp-content/themes/rent/assets/images/pop.svg);
+                img{
+
+                }
+            }
+        }
+    }
+  }
+  .ourvalues{
+    background-color: #000;
+    padding-top: 3rem;
+    .container{
+        .row{
+            .valuestext{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .text4{
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    &:hover{
+                       h2{
+                        opacity: 1;
+                       }
+                    }
+                   h2{
+                    opacity: 0;
+                    transition: .3s ease-in-out;
+                   }
+                   p{
+                    font-family: $default-font;
+                    font-weight: 500;
+                    font-size: 74px;
+                    letter-spacing: -0.03em;
+                    color: #fff;
+                   } 
+                }
+                h4{
+                    font-family: $default-font;
+                    font-weight: 400;
+                    font-size: 21px;
+                    letter-spacing: -0.03em;
+                    color: #fff;
+                    width: 518px;
+                }
+            }
+        }
+    }
+  }
+}
