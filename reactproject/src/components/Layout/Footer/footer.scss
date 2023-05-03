@@ -1,0 +1,199 @@
+@import "../../../style/global.scss";
+@import "../../../style/partials/varaible.scss";
+footer {
+  background-color: #000;
+    padding-bottom: 4rem;
+
+  .container {
+    .row {
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      padding-top: 3rem;
+      .period {
+        img {
+          width: 163px;
+          height: 70px;
+        }
+        p {
+          font-family: $default-font;
+          font-size: 32px;
+          color: #fff;
+          font-weight: 700;
+          padding-top: 20px;
+        }
+        .pageicon {
+          display: flex;
+          align-items: center;
+          gap: 13px;
+          padding-top: 9rem;
+
+          h4 {
+            margin: 0;
+            background-color: #7e93fb;
+            width: 25px;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: 0.3s ease-in-out;
+            &:hover {
+              background-color: rgb(65, 88, 208);
+            }
+          }
+        }
+      }
+      .list {
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          align-items: flex-start;
+          li {
+            list-style: none;
+            font-family: $default-font;
+            font-size: 20px;
+            line-height: 24px;
+
+            font-weight: 600;
+
+            a {
+              color: #7e93fb;
+              text-decoration: none;
+              transition: 0.3s ease-in-out;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+      .list2 {
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          align-items: flex-start;
+          li {
+            list-style: none;
+            font-family: $default-font;
+            font-size: 20px;
+            line-height: 24px;
+            color: #7e93fb;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+    .row {
+      .stayword {
+        p {
+          font-family: $default-font;
+          font-size: 29px;
+          color: #fff;
+          font-weight: 700;
+        }
+        .emailsearch {
+          display: flex;
+          align-items: center;
+          form {
+            .email {
+              font-family: $default-font;
+              background-color: transparent;
+              border: 1px solid #bebebe;
+              height: 40px;
+              font-size: 14px;
+              line-height: 14px;
+              color: #696969;
+              border-radius: 5px 0px 0px 5px;
+              padding: 5px 10px;
+              width: 290px;
+            }
+          }
+          button {
+            width: 130px;
+            height: 40px;
+            background: #4561ec;
+            border-radius: 0px 4px 4px 0px;
+            border: 1px solid transparent;
+            font-size: 17px;
+            line-height: 17px;
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+          }
+        }
+        h3 {
+          font-family: $default-font;
+          width: 297px;
+          font-size: 14px;
+          line-height: 23px;
+          color: #bebec4;
+          margin-top: 35px;
+          span{
+            cursor: pointer;
+            color: #7E93FB;
+            transition: .3s ease-in-out;
+            &:hover{
+                text-decoration: underline;
+            }
+          }
+        }
+      }
+      .group {
+        p {
+            font-family: $default-font;
+            width: 608px;
+            font-size: 14px;
+            line-height: 23px;
+            color: #bebec4;
+        }
+    }
+    .privacy {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      .policy {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        p {
+            font-family: $default-font;
+            font-size: 15px;
+            margin: 0;
+            line-height: 23px;
+            color: #7E93FB;
+            cursor: pointer;
+            transition: .3s ease-in-out;
+            border-right: 1px solid #7E93FB;
+            padding-right: 7px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        h4 {
+            font-family: $default-font;
+            font-size: 15px;
+            line-height: 23px;
+            margin: 0;
+            color: #7E93FB;
+            cursor: pointer;
+            transition: .3s ease-in-out;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+      }
+      h5 {
+
+      }
+    }
+    }
+  }
+}
