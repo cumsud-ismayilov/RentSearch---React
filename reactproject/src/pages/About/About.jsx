@@ -1,6 +1,8 @@
 import React from 'react'
 import '../About/About.scss'
+import Cards from '../../components/AboutCards/Cards'
 import { MdOutlineCompareArrows } from "react-icons/md";
+import { TiLocation } from "react-icons/ti";
 const About = () => {
   return (
     <main>
@@ -135,6 +137,51 @@ const About = () => {
           </div>
          </div>
       </section>
+      <section className='leaders'>
+         <div className='container'>
+            <div className='row'>
+               <div className='col-xl-12'>
+                  <div className='leaderword'>
+                     <div className='word1'>
+                     <h2><MdOutlineCompareArrows  color='#fff' size={19} /></h2>
+                     <p>Our Leaders</p>
+                     </div>
+                     <h3>Meet our leadership team</h3>
+                  </div>
+               </div>
+               <Cards/>
+               <div className='col-xl-6 g-4'>
+                  <div className='rent'>
+                     <div className='rent1'>
+                     <h2><MdOutlineCompareArrows  color='#fff' size={19} /></h2>
+                     <p>Join the Rent. team </p>
+                     </div>
+                     <h4>Feel at home in your career. Our offices are a place where people and performance take precedence. We thrive in a welcoming, collaborative environment where individuals are inspired to do their best work day in and day out.</h4>
+                     <h3>Join us in our mission to make finding an ideal place to live intuitive and stress-free for all.</h3>
+                     <button>Explore Careers</button>
+                  </div>
+               </div>
+               <div className='col-xl-6 g-4'>
+                  <div className='renttwo'>
+                     <div className='manager'>
+                       <div className='mangerleft'>
+                       <div className='managerword'>
+                        <h2><MdOutlineCompareArrows  color='#fff' size={19} /></h2>
+                        <p>Technical Program Manager</p>
+                        </div>
+                        <div className='location'>
+                           <h3><TiLocation color='#fff' size={19}/></h3>
+                           <h4>Remote</h4>
+                        </div>
+                       </div>
+                       <button>Show Details</button>
+                     </div>
+                    
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
       <section className='browse'>
       <div className='container'>
          <div className='row'>
@@ -143,12 +190,12 @@ const About = () => {
                   <p>Discover your next resident on our network</p>
                   <div className='browseimgs'>
                      <div className='img1'>
-                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/BrandRent-TypePrimary-Logo-Saturation1-Color-ColorBlack-1-3.png"/>
-                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/g10-12.png"/>
+                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/BrandRent-TypePrimary-Logo-Saturation1-Color-ColorBlack-1-3.png" alt='img'/>
+                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/g10-12.png" alt='img'/>
                      </div>
                      <div className='img2'>
-                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/g10-13.png"/>
-                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/g10-14.png"/>
+                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/g10-13.png" alt='img'/>
+                        <img src="https://solutions.rent.com/wp-content/uploads/2022/06/g10-14.png" alt='img'/>
                      </div>
                   </div>
                </div>
