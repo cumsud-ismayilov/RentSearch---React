@@ -6,6 +6,7 @@
     background: #17181c;
     .container {
       .row {
+        padding-top: 0;
         .navleft {
           display: flex;
           gap: 11px;
@@ -64,6 +65,7 @@
     padding-bottom: 9px;
     .container {
       .row {
+        padding-top: 0;
         display: flex;
         align-items: baseline;
         justify-content: center;

@@ -164,7 +164,33 @@ const About = () => {
                <div className='col-xl-6 g-4'>
                   <div className='renttwo'>
                      <div className='manager'>
-                       <div className='mangerleft'>
+                       <div className='managerleft'>
+                       <div className='managerword'>
+                        <h2><MdOutlineCompareArrows  color='#fff' size={19} /></h2>
+                        <p>Technical Program Manager</p>
+                        </div>
+                        <div className='location'>
+                           <h3><TiLocation color='#fff' size={19}/></h3>
+                           <h4>Remote</h4>
+                        </div>
+                       </div>
+                       <button>Show Details</button>
+                     </div>
+                     <div className='manager'>
+                       <div className='managerleft'>
+                       <div className='managerword'>
+                        <h2><MdOutlineCompareArrows  color='#fff' size={19} /></h2>
+                        <p>Technical Program Manager</p>
+                        </div>
+                        <div className='location'>
+                           <h3><TiLocation color='#fff' size={19}/></h3>
+                           <h4>Remote</h4>
+                        </div>
+                       </div>
+                       <button>Show Details</button>
+                     </div>
+                     <div className='manager'>
+                       <div className='managerleft'>
                        <div className='managerword'>
                         <h2><MdOutlineCompareArrows  color='#fff' size={19} /></h2>
                         <p>Technical Program Manager</p>

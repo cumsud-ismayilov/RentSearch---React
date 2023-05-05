@@ -91,7 +91,6 @@ main {
           background-position: center;
           background-size: cover;
           background-image: url(https://solutions.rent.com/wp-content/themes/rent/assets/images/pop.svg);
-        
         }
       }
     }
@@ -231,6 +230,7 @@ main {
           }
         }
         .rent {
+          margin-top: 4rem;
           .rent1 {
             display: flex;
             align-items: center;
@@ -289,41 +289,74 @@ main {
             transition: 0.3s ease-in-out;
             filter: brightness(1);
             margin-top: 40px;
-            &:hover{
+            &:hover {
               filter: brightness(0.7);
             }
           }
         }
-        .renttwo{
-            .manager{
-              background-color: #4561EC;
-              .managerleft{
-                .managerword{
-                  &:hover{
-                     h2{
-                        opacity: 1;
-                     }
+        .renttwo {
+          display: flex;
+          flex-direction: column;
+          gap: 41px;
+          padding-top: 13rem;
+          .manager {
+            background-color: #4561ec;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 101px;
+            padding: 17px 0px;
+            .managerleft {
+              .managerword {
+                display: flex;
+                align-items: baseline;
+                gap: 6px;
+                &:hover {
+                  h2 {
+                    opacity: 1;
                   }
-                  h2{
-                    opacity: 0;
-                  }
-                  p{
-                    font-family: $default-font;
-                    font-size: 72px;
-                  }
-                 }
-                 .location{
-                  h3{}
-                  h4{ 
-                    font-family: $default-font;
-                  }
-                 }
+                }
+                h2 {
+                  opacity: 0;
+                }
+                p {
+                  font-family: $default-font;
+                  color: #fff;
+                  font-size: 20px;
+                  font-weight: 600;
+                  margin: 0;
+                }
               }
-              button{
+              .location {
+                display: flex;
+                align-items: baseline;
+                gap: 4px;
 
+                h4 {
+                  font-family: $default-font;
+                  color: #fff;
+                  font-size: 20px;
+                  font-weight: 400;
+                  margin: 0;
+                }
               }
             }
-           
+            button {
+              width: 131px;
+              height: 61px;
+              background: transparent;
+              border-radius: 4px;
+              border: 1px solid #fff;
+              line-height: 17px;
+              color: #fff;
+              font-weight: 600;
+              cursor: pointer;
+              transition: 0.3s ease-in-out;
+              &:hover {
+                background-color: #22389c;
+              }
+            }
+          }
         }
       }
     }
