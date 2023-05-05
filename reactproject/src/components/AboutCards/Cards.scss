@@ -1,11 +1,11 @@
 @import "../../style/global.scss";
 @import "../../style/partials/varaible.scss";
 
-.row{
+.cards-part{
+  .row{
     padding-top: 2rem;
-  
-
-    .dev-cards {
+    border-bottom: 2px solid #abb8c3;
+       .dev-cards {
         width: 100%;
         img {
           width: 100%;
@@ -44,4 +44,5 @@
       
         }
       }
+}
 }

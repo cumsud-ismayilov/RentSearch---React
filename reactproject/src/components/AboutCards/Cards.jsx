@@ -1,9 +1,10 @@
 import React from 'react'
 import './Cards.scss'
-import { MdOutlineCompareArrows } from "react-icons/md";
+
 const Cards = () => {
   return (
-   <div className='row'>
+   <div className='cards-part'>
+     <div className='row'>
      <div className='col-xl-3 mt-5'>
         <div className='dev-cards'>
             <img src="	https://solutions.rent.com/wp-content/uploads/2022/05/jon_ziglar-Apr-2023-Optimized-crop.jpg" alt="cardsimg" />
@@ -67,6 +68,7 @@ const Cards = () => {
             <h3>Chief Executive Officer</h3>
         </div>
     </div>
+   </div>
    </div>
     
   )
