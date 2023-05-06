@@ -2,7 +2,7 @@ import React ,{useEffect,useRef} from 'react';
 import './Filter.scss';
 import Isotope from "isotope-layout";
 import { Link } from 'react-router-dom';
-import { MdOutlineCompareArrows } from "react-icons/md";
+
 
 const Filter = () => {
      // init one ref to store the future isotope object
