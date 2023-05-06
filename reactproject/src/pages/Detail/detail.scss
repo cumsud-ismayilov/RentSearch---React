@@ -1,0 +1,320 @@
+@import "../../style/global.scss";
+@import "../../style/partials/varaible.scss";
+
+main {
+  .blogdetail {
+    background-color: #000;
+    border-bottom: 1px solid #4561ec;
+    padding-bottom: 3rem;
+
+    .container {
+      .row {
+        padding-top: 26px;
+
+        .apartment {
+          display: flex;
+          .apartment-img {
+            width: 654px;
+            height: 450px;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              object-position: center;
+            }
+          }
+          .apartment-tittle {
+            background-color: #17181c;
+            width: 654px;
+            padding: 56px 42px 56px 52px;
+            .text1-date {
+              display: flex;
+              align-items: baseline;
+              justify-content: space-between;
+              p {
+                font-family: $default-font;
+                color: #000;
+                background-color: #fff;
+                margin: 0;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.01em;
+                text-transform: capitalize;
+                padding: 10px 12px;
+                border-radius: 4px;
+                font-weight: 600;
+                width: 80px;
+              }
+              h1 {
+                font-family: $default-font;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 600;
+              }
+            }
+            h2 {
+              font-family: $default-font;
+              color: #fff;
+              font-size: 45px;
+              font-weight: 600;
+              margin: 0;
+              width: 500px;
+              padding-top: 31px;
+            }
+          }
+        }
+        .socialmedia {
+          padding-top: 34px;
+          display: flex;
+          gap: 7px;
+
+          h3 {
+            font-family: $default-font;
+            color: #fff;
+            margin: 0;
+            font-size: 18px;
+          }
+          .socialicon {
+            display: flex;
+            align-items: center;
+            gap: 11px;
+            h4 {
+              margin: 0;
+              background-color: #7e93fb;
+              width: 25px;
+              height: 25px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 50%;
+              transition: 0.3s ease-in-out;
+              &:hover {
+                background-color: rgb(65, 88, 208);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .post-banner {
+    background-color: #000;
+    .container {
+      .row {
+        padding-top: 3rem;
+        .post-content {
+          p {
+            font-family: $default-font;
+            color: #fff;
+            font-size: 19px;
+            width: 805px;
+            border-bottom: 3px solid #7e93fb;
+            padding-bottom: 55px;
+          }
+        }
+        .photography {
+            padding-top: 31px;
+          h3 {
+            font-family: $default-font;
+            color: #fff;
+            font-size: 39px;
+            font-weight: 600;
+            margin: 0;
+          }
+          h4 {
+            font-family: $default-font;
+            color: #fff;
+            font-size: 19px;
+            width: 809px;
+            padding-top: 36px;
+          }
+        }
+        .content-img {
+          position: relative;
+          width: 100%;
+          img {
+            width: 100%;
+            border-radius: 4px;
+            height: 560px;
+          }
+          .post-text1 {
+            position: absolute;
+            top: 36px;
+            left: 34px;
+
+            p {
+              margin: 0;
+              color: #000;
+              font-size: 19px;
+              font-weight: 600;
+              width: 234px;
+            }
+            h2 {
+              color: #000;
+              font-size: 16px;
+              font-weight: 400;
+              width: 246px;
+            }
+            button {
+              width: 138px;
+              height: 50px;
+              background: #4561ec;
+              border-radius: 4px;
+              border: 1px solid transparent;
+              font-size: 16px;
+              line-height: 17px;
+              color: #fff;
+              font-weight: 600;
+              cursor: pointer;
+              transition: 0.3s ease-in-out;
+              filter: brightness(1);
+              &:hover {
+                filter: brightness(0.6);
+              }
+            }
+          }
+        }
+        .guided{
+            background-color: #4561EC;
+            border-radius: 4px;
+            padding: 41px 32px;
+            margin-top: 37px;
+            h1{
+                color: #fff;
+                font-size: 21px;
+                font-weight: 500;
+                width: 250px;
+                font-family: $default-font;
+            }
+            button{
+                 width: 138px;
+              height: 50px;
+              background: #fff;
+              border-radius: 4px;
+              border: 1px solid transparent;
+              font-size: 16px;
+              line-height: 17px;
+              color: #4561ec;
+              font-weight: 600;
+              cursor: pointer;
+              transition: 0.3s ease-in-out;
+              filter: brightness(1);
+              &:hover {
+                 background-color: #22389C;
+                 color: #fff;
+              }
+            }
+        }
+        .advertising {
+            padding-top: 31px;
+          h3 {
+            font-family: $default-font;
+            color: #fff;
+            font-size: 39px;
+            font-weight: 600;
+            margin: 0;
+          }
+          h4 {
+            font-family: $default-font;
+            color: #fff;
+            font-size: 19px;
+            width: 809px;
+            padding-top: 36px;
+            span{
+                color: #7E93FB;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+          }
+        }
+        .lifetime {
+            padding-top: 31px;
+          h3 {
+            font-family: $default-font;
+            color: #fff;
+            font-size: 39px;
+            font-weight: 600;
+            margin: 0;
+          }
+          h4 {
+            font-family: $default-font;
+            color: #fff;
+            font-size: 19px;
+            width: 809px;
+            padding-top: 36px;
+           
+          }
+          h5 {
+            font-family: $default-font;
+            color: #fff;
+            font-size: 19px;
+            width: 809px;
+            padding-top: 20px;
+           
+          }
+        }
+        .website {
+            padding-top: 31px;
+          h3 {
+            font-family: $default-font;
+            color: #fff;
+            font-size: 39px;
+            font-weight: 600;
+            margin: 0;
+          }
+          h4 {
+            font-family: $default-font;
+            color: #fff;
+            font-size: 19px;
+            width: 809px;
+            padding-top: 36px;
+            span{
+                color: #7E93FB;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+          }
+        }
+        .invest {
+            padding-top: 31px;
+          h3 {
+            font-family: $default-font;
+            color: #fff;
+            font-size: 39px;
+            font-weight: 600;
+            margin: 0;
+          }
+          h4 {
+            font-family: $default-font;
+            color: #fff;
+            font-size: 19px;
+            width: 809px;
+            padding-top: 36px;
+            span{
+                color: #7E93FB;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+          }
+        }
+        .photography {
+            padding-top: 31px;
+          h3 {
+            font-family: $default-font;
+            color: #fff;
+            font-size: 39px;
+            font-weight: 600;
+            margin: 0;
+          }
+          h4 {
+            font-family: $default-font;
+            color: #fff;
+            font-size: 19px;
+            width: 809px;
+            padding-top: 36px;
+          }
+        }
+      }
+    }
+  }
+}
