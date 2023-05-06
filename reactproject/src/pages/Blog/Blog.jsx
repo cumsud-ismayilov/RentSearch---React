@@ -24,7 +24,28 @@ const Blog = () => {
                    <input type="email" name="emails" id="emails"  className="emails" placeholder="Email Address *"/>
                  </form>
                  <h5>This site is protected by reCAPTCHA and the Google<span> Privacy Policy</span> and<span> Terms of Service</span> apply.</h5>
+                 <button className="submit">Submit</button>
               </div>
+            </div>
+            <div className="col-xl-6">
+               <div className="articles-card">
+                  <div className="artic-img">
+                     <img src="	https://solutions.rent.com/wp-content/uploads/2023/04/audience-targeting-blog-cover.jpg" alt="cardimg" />
+                  </div>
+                  <div className='articles-text'>
+                 <div className='articlesone'>
+                    <p>05/02/2023 • in</p>
+                    <h4>Social Media Marketing</h4>
+                 </div>
+                 <h3>Posting your property’s listing to Facebook just got harder. Here’s how Rent. can help.</h3>
+                 <div className='articlesthree'>
+                 <span>#Social Media Advertising</span>
+                        <span>#facebook marketplace</span>
+                        <span>#paid ads</span>
+                        <span>#facebook</span>
+                 </div>
+              </div>
+               </div>
             </div>
           </div>
         </div>
