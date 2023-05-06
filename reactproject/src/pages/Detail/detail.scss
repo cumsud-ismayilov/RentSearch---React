@@ -113,7 +113,7 @@ main {
           }
         }
         .photography {
-            padding-top: 31px;
+          padding-top: 31px;
           h3 {
             font-family: $default-font;
             color: #fff;
@@ -174,39 +174,113 @@ main {
             }
           }
         }
-        .guided{
-            background-color: #4561EC;
+        .guided {
+          background-color: #4561ec;
+          border-radius: 4px;
+          padding: 41px 32px;
+          margin-top: 37px;
+          h1 {
+            color: #fff;
+            font-size: 21px;
+            font-weight: 500;
+            width: 250px;
+            font-family: $default-font;
+          }
+          button {
+            width: 138px;
+            height: 50px;
+            background: #fff;
             border-radius: 4px;
-            padding: 41px 32px;
-            margin-top: 37px;
-            h1{
-                color: #fff;
-                font-size: 21px;
-                font-weight: 500;
-                width: 250px;
-                font-family: $default-font;
+            border: 1px solid transparent;
+            font-size: 16px;
+            line-height: 17px;
+            color: #4561ec;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            filter: brightness(1);
+            &:hover {
+              background-color: #22389c;
+              color: #fff;
             }
-            button{
-                 width: 138px;
-              height: 50px;
-              background: #fff;
+          }
+        }
+        .stay-touch {
+          margin-top: 40px;
+          background-color: #fff;
+          border-radius: 4px;
+          padding: 32px 32px;
+          h3 {
+            font-family: $default-font;
+            font-weight: 600;
+            font-size: 20px;
+            margin: 0;
+            color: #000;
+          }
+          h4 {
+            font-family: $default-font;
+            margin: 0;
+            font-weight: 400;
+            font-size: 18px;
+            color: #000;
+            padding-top: 12px;
+          }
+          form {
+            position: relative;
+            padding-top: 39px;
+            .emmail {
+              font-family: $default-font;
+              font-size: 18px;
+              height: 76px;
+              border: 1px solid #e5e5e8 !important;
               border-radius: 4px;
-              border: 1px solid transparent;
-              font-size: 16px;
-              line-height: 17px;
-              color: #4561ec;
-              font-weight: 600;
+              padding: 24px 22px 23px;
+              font-weight: 400;
+              width: 230px;
+            }
+            h5 {
+              position: absolute;
+              top: 60px;
+              right: 34px;
+            }
+          }
+          h3 {
+            font-family: $default-font;
+            font-size: 14px;
+            line-height: 23px;
+            color: #000;
+            font-weight: 300;
+            padding-top: 20px;
+            span {
               cursor: pointer;
+              color: #7e93fb;
               transition: 0.3s ease-in-out;
-              filter: brightness(1);
               &:hover {
-                 background-color: #22389C;
-                 color: #fff;
+                text-decoration: underline;
               }
             }
+          }
+          .submit {
+            width: 203px;
+            height: 60px;
+            margin-top: 26px;
+            background: #4561ec;
+            border-radius: 4px;
+            border: 1px solid transparent;
+            font-size: 16px;
+            line-height: 17px;
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            filter: brightness(1);
+            &:hover {
+              filter: brightness(0.6);
+            }
+          }
         }
         .advertising {
-            padding-top: 31px;
+          padding-top: 31px;
           h3 {
             font-family: $default-font;
             color: #fff;
@@ -220,15 +294,15 @@ main {
             font-size: 19px;
             width: 809px;
             padding-top: 36px;
-            span{
-                color: #7E93FB;
-                text-decoration: underline;
-                cursor: pointer;
+            span {
+              color: #7e93fb;
+              text-decoration: underline;
+              cursor: pointer;
             }
           }
         }
         .lifetime {
-            padding-top: 31px;
+          padding-top: 31px;
           h3 {
             font-family: $default-font;
             color: #fff;
@@ -242,7 +316,6 @@ main {
             font-size: 19px;
             width: 809px;
             padding-top: 36px;
-           
           }
           h5 {
             font-family: $default-font;
@@ -250,11 +323,10 @@ main {
             font-size: 19px;
             width: 809px;
             padding-top: 20px;
-           
           }
         }
         .website {
-            padding-top: 31px;
+          padding-top: 31px;
           h3 {
             font-family: $default-font;
             color: #fff;
@@ -268,15 +340,15 @@ main {
             font-size: 19px;
             width: 809px;
             padding-top: 36px;
-            span{
-                color: #7E93FB;
-                text-decoration: underline;
-                cursor: pointer;
+            span {
+              color: #7e93fb;
+              text-decoration: underline;
+              cursor: pointer;
             }
           }
         }
         .invest {
-            padding-top: 31px;
+          padding-top: 31px;
           h3 {
             font-family: $default-font;
             color: #fff;
@@ -290,15 +362,15 @@ main {
             font-size: 19px;
             width: 809px;
             padding-top: 36px;
-            span{
-                color: #7E93FB;
-                text-decoration: underline;
-                cursor: pointer;
+            span {
+              color: #7e93fb;
+              text-decoration: underline;
+              cursor: pointer;
             }
           }
         }
         .photography {
-            padding-top: 31px;
+          padding-top: 31px;
           h3 {
             font-family: $default-font;
             color: #fff;
@@ -312,6 +384,42 @@ main {
             font-size: 19px;
             width: 809px;
             padding-top: 36px;
+          }
+        }
+      
+      }
+      .row{
+        .container{
+          .post-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 23px;
+            padding-top: 24px;
+            h2 {
+              margin: 0;
+              background-color: #4561ec;
+              border-radius: 4px;
+              width: 31px;
+              height: 31px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              a {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+            h3 {
+              font-family: $default-font;
+              cursor: pointer;
+              margin: 0;
+              font-size: 20px;
+              color: #fff;
+              font-weight: 600;
+            }
           }
         }
       }

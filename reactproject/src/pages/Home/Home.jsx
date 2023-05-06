@@ -10,7 +10,7 @@ const Home = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-xl-6 g-5'>
-              <div className='marketplace'>
+              <div className='marketplace1'>
                   <div className='reactword' >
                      <h2><MdOutlineCompareArrows  color='#fff' size={19} /></h2>
                      <p>Rent<span>Search.</span></p>

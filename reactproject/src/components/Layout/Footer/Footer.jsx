@@ -16,7 +16,7 @@ const Footer = () => {
                  <img src="	https://solutions.rent.com/wp-content/themes/rent/assets/images/svg/Logo.svg"/>
                  <p>Solutions that work as hard as you do.Period</p>
              <div className='pageicon'>
-                <h4><GrFacebookOption size={17} cursor={"pointer"}/></h4>
+               <h4><GrFacebookOption size={17} cursor={"pointer"}/></h4>
                <h4><FaTwitter size={17} cursor={"pointer"}/></h4>
                <h4><GrLinkedinOption size={17} cursor={"pointer"}/></h4>
                <h4><AiOutlineInstagram size={17} cursor={"pointer"}/></h4>

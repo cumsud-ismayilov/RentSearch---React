@@ -1,8 +1,12 @@
 import React from 'react';
 import './detail.scss';
+import { Link } from 'react-router-dom';
 import { GrFacebookOption } from "react-icons/gr";
 import { FaTwitter } from "react-icons/fa";
 import { GrLinkedinOption } from "react-icons/gr";
+import { BsChevronDown } from "react-icons/bs";
+import { BsArrowLeft } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 const Detail = () => {
   return (
     <main>
@@ -124,10 +128,32 @@ const Detail = () => {
                     <h1> Get guided support on leasing solutions.</h1>
                     <button>Contact Us</button>
                  </div>
+                 <div className='stay-touch'>
+                    <h3>Stay in touch!</h3>
+                    <h4>Sign up for our news</h4>
+                    <form>
+                       <input type="email" name="emmail" id="emmail" className='emmail' placeholder='Enter Addresss *' />
+                       <h5><BsChevronDown/></h5>
+                    </form>
+                    <h3>This site is protected by reCAPTCHA and the Google<span> Privacy Policy</span> and<span> Terms of Service</span> apply.</h3>
+                  <button className='submit'>Submit</button>
+                 </div>
               </div>
           
-            
-           </div>
+          </div>
+          <div className='row'>
+             <div className='container'>
+             <div className='col-xl-12 g-3'>
+                <div className='post-content'>
+                   <h2><Link to='/blog'><BsArrowLeft size={17} cursor={"pointer"} color='#fff'/></Link></h2>
+                   <h3>Prev</h3>
+                   <h3>Next</h3>
+                   <h2><Link to='/home'><BsArrowRight size={17} cursor={"pointer"} color='#fff'/></Link></h2>
+                </div>
+             </div>
+             </div>
+          </div>
+         
          </div>
       </section>
     </main>
