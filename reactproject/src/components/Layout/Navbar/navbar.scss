@@ -88,6 +88,7 @@
               font-family: $default-font;
               list-style: none;
               cursor: pointer;
+              padding: 2px;
               font-size: 15px;
               font-weight: 600;
 
@@ -101,6 +102,7 @@
               list-style: none;
               cursor: pointer;
               font-size: 15px;
+              padding: 2px;
               position: relative;
               display: flex;
               font-weight: 600;
@@ -110,6 +112,9 @@
                 }
                 h3 {
                   display: none;
+                }
+                .reseurcesdown{
+                  display: block;
                 }
               }
               h3 {
@@ -129,12 +134,156 @@
                 text-decoration: none;
                 color: #7e93fb;
               }
+              .reseurcesdown {
+                position: absolute;
+                  display: none;
+                top: 31px;
+                width: 1518px;
+                right: -988px;
+                padding-bottom: 2rem;
+                background-color: #000;
+                .container {
+                  .row {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-top: 2rem;
+
+                    .reserword {
+                      p {
+                        margin: 0;
+                        font-size: 41px;
+                        color: #fff;
+                        word-spacing: 2px;
+                        font-weight: 600;
+                        font-family: $default-font;
+                      }
+                    }
+                    .reserword1 {
+                      p {
+                        font-family: $default-font;
+                        color: #7e93fb;
+                        font-size: 19px;
+                        line-height: 19px;
+                        letter-spacing: 0.01em;
+                        margin: 0;
+                      }
+                      h1 {
+                        font-family: $default-font;
+                        color: #7e93fb;
+                        font-size: 19px;
+                        line-height: 19px;
+                        font-weight: 600;
+                        letter-spacing: 0.01em;
+                        margin: 0;
+                        padding-top: 28px;
+                      }
+                    }
+                    .reserword2 {
+                      p {
+                        font-family: $default-font;
+                        color: #7e93fb;
+                        font-size: 19px;
+                        line-height: 19px;
+                        letter-spacing: 0.01em;
+                        margin: 0;
+                        border-right: 1px solid #373839;
+                      }
+                      h1 {
+                        font-family: $default-font;
+                        color: #7e93fb;
+                        font-size: 19px;
+                        line-height: 19px;
+                        font-weight: 600;
+                        letter-spacing: 0.01em;
+                        margin: 0;
+                        padding-top: 28px;
+                      }
+                    }
+                    .reserword3 {
+                      width: 100%;
+                      height: 140px;
+                      img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                      }
+                    }
+                    .reserword4 {
+                      .reserdate {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        h4 {
+                          background-color: #fff;
+                          color: #000;
+                          font-family: $default-font;
+                          margin: 0;
+                          font-size: 19px;
+                          font-weight: 600;
+                          border-radius: 4px;
+                          width: 100px;
+                          padding: 8px;
+                        }
+                        h5 {
+                          color: #fff;
+                          font-family: $default-font;
+                          margin: 0;
+                          font-size: 19px;
+                          font-weight: 600;
+                          border-radius: 4px;
+                          width: 100px;
+                          padding: 8px;
+                        }
+                      }
+                      h6 {
+                        font-family: $default-font;
+                        color: #fff;
+                        margin: 0;
+                        font-size: 23px;
+                        font-weight: 600;
+                        padding-top: 14px;
+                      }
+                      h5 {
+                        font-family: $default-font;
+                        color: #7e93fb;
+                        font-size: 19px;
+                        margin: 0;
+                        font-weight: 600;
+                        padding-top: 52px;
+                        cursor: pointer;
+                        transition: .3s ease-in-out;
+                        &:hover{
+                          color: #fff;
+                        }
+                      }
+                    }
+                    .reserword5{
+                      p{
+                        font-family: $default-font;
+                        color: #7e93fb;
+                        font-size: 19px;
+                        margin: 0;
+                        font-weight: 600;
+                        cursor: pointer;
+                        transition: .3s ease-in-out;
+                        &:hover{
+                          color: #fff;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+             
             }
             .company {
               font-family: $default-font;
               list-style: none;
               cursor: pointer;
               display: flex;
+              padding: 2px;
               font-size: 15px;
               font-weight: 600;
               position: relative;
@@ -145,7 +294,7 @@
                 h3 {
                   display: none;
                 }
-                .downmenu{
+                .downmenu {
                   display: block;
                 }
               }
@@ -177,8 +326,8 @@
                       font-size: 23px;
                       font-weight: 600;
                     }
-                    .about{
-                      a{
+                    .about {
+                      a {
                         text-decoration: none;
                         font-family: $default-font;
                         color: #fff;
@@ -200,6 +349,7 @@
               list-style: none;
               cursor: pointer;
               font-size: 15px;
+              padding: 2px;
               font-weight: 600;
 
               a {
@@ -212,6 +362,7 @@
               list-style: none;
               cursor: pointer;
               font-size: 15px;
+              padding: 2px;
               display: flex;
               font-weight: 600;
               position: relative;
@@ -221,6 +372,9 @@
                 }
                 h3 {
                   display: none;
+                }
+                .reseurcesdown{
+                  display: block;
                 }
               }
               h3 {
@@ -239,6 +393,148 @@
               a {
                 text-decoration: none;
                 color: #7e93fb;
+              }
+              .reseurcesdown {
+                position: absolute;
+                 display: none;
+                top: 31px;
+                width: 1518px;
+                right: -629px;
+                padding-bottom: 2rem;
+                background-color: #000;
+                .container {
+                  .row {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-top: 2rem;
+
+                    .reserword {
+                      p {
+                        margin: 0;
+                        font-size: 41px;
+                        color: #fff;
+                        word-spacing: 2px;
+                        font-weight: 600;
+                        font-family: $default-font;
+                      }
+                    }
+                    .reserword1 {
+                      p {
+                        font-family: $default-font;
+                        color: #7e93fb;
+                        font-size: 19px;
+                        line-height: 19px;
+                        letter-spacing: 0.01em;
+                        margin: 0;
+                      }
+                      h1 {
+                        font-family: $default-font;
+                        color: #7e93fb;
+                        font-size: 19px;
+                        line-height: 19px;
+                        font-weight: 600;
+                        letter-spacing: 0.01em;
+                        margin: 0;
+                        padding-top: 28px;
+                      }
+                    }
+                    .reserword2 {
+                      p {
+                        font-family: $default-font;
+                        color: #7e93fb;
+                        font-size: 19px;
+                        line-height: 19px;
+                        letter-spacing: 0.01em;
+                        margin: 0;
+                        border-right: 1px solid #373839;
+                      }
+                      h1 {
+                        font-family: $default-font;
+                        color: #7e93fb;
+                        font-size: 19px;
+                        line-height: 19px;
+                        font-weight: 600;
+                        letter-spacing: 0.01em;
+                        margin: 0;
+                        padding-top: 28px;
+                      }
+                    }
+                    .reserword3 {
+                      width: 100%;
+                      height: 140px;
+                      img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                      }
+                    }
+                    .reserword4 {
+                      .reserdate {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        h4 {
+                          background-color: #fff;
+                          color: #000;
+                          font-family: $default-font;
+                          margin: 0;
+                          font-size: 19px;
+                          font-weight: 600;
+                          border-radius: 4px;
+                          width: 100px;
+                          padding: 8px;
+                        }
+                        h5 {
+                          color: #fff;
+                          font-family: $default-font;
+                          margin: 0;
+                          font-size: 19px;
+                          font-weight: 600;
+                          border-radius: 4px;
+                          width: 100px;
+                          padding: 8px;
+                        }
+                      }
+                      h6 {
+                        font-family: $default-font;
+                        color: #fff;
+                        margin: 0;
+                        font-size: 23px;
+                        font-weight: 600;
+                        padding-top: 14px;
+                      }
+                      h5 {
+                        font-family: $default-font;
+                        color: #7e93fb;
+                        font-size: 19px;
+                        margin: 0;
+                        font-weight: 600;
+                        padding-top: 52px;
+                        cursor: pointer;
+                        transition: .3s ease-in-out;
+                        &:hover{
+                          color: #fff;
+                        }
+                      }
+                    }
+                    .reserword5{
+                      p{
+                        font-family: $default-font;
+                        color: #7e93fb;
+                        font-size: 19px;
+                        margin: 0;
+                        font-weight: 600;
+                        cursor: pointer;
+                        transition: .3s ease-in-out;
+                        &:hover{
+                          color: #fff;
+                        }
+                      }
+                    }
+                  }
+                }
               }
             }
           }
