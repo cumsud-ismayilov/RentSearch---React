@@ -1,45 +1,45 @@
 @import "../../../style/global.scss";
 @import "../../../style/partials/varaible.scss";
 footer {
-  background-color: #000;
-    padding-bottom: 4rem;
+  background-color: $default-background;
+    padding-bottom: $padding_bottom1;
 
   .container {
     .row {
       display: flex;
       align-items: baseline;
       justify-content: center;
-      padding-top: 3rem;
+      padding-top: $padding_bottom2;
       .period {
         img {
-          width: 163px;
-          height: 70px;
+          width: $width1;
+          height: $height1;
         }
         p {
           font-family: $default-font;
-          font-size: 32px;
-          color: #fff;
-          font-weight: 700;
-          padding-top: 20px;
+          font-size: $font-size1;
+          color: $color1;
+          font-weight: $fn-weight1;
+          padding-top: $pad-top1;
         }
         .pageicon {
           display: flex;
           align-items: center;
           gap: 13px;
-          padding-top: 9rem;
+          padding-top: $pad-top2;
 
           h4 {
-            margin: 0;
-            background-color: #7e93fb;
-            width: 25px;
-            height: 25px;
+            margin: $margin1;
+            background-color: $back-color2;
+            width: $width2;
+            height: $height2;
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 50%;
-            transition: 0.3s ease-in-out;
+            border-radius: $br-radius1;
+            transition:$transition;
             &:hover {
-              background-color: rgb(65, 88, 208);
+              background-color: $back-color3;
             }
           }
         }
@@ -51,19 +51,18 @@ footer {
           gap: 24px;
           align-items: flex-start;
           li {
-            list-style: none;
+            list-style: $list-style;
             font-family: $default-font;
-            font-size: 20px;
-            line-height: 24px;
-
-            font-weight: 600;
+            font-size: $font-size2;
+            line-height: $ln-height1;
+            font-weight: $fn-weight2;
 
             a {
-              color: #7e93fb;
-              text-decoration: none;
-              transition: 0.3s ease-in-out;
+              color: $color2;
+              text-decoration: $txt-decor1;
+              transition: $transition;
               &:hover {
-                text-decoration: underline;
+                text-decoration: $txt-decor2;
               }
             }
           }
@@ -76,16 +75,16 @@ footer {
           gap: 24px;
           align-items: flex-start;
           li {
-            list-style: none;
+            list-style: $list-style;
             font-family: $default-font;
-            font-size: 20px;
-            line-height: 24px;
-            color: #7e93fb;
-            font-weight: 600;
-            cursor: pointer;
-            transition: 0.3s ease-in-out;
+            font-size: $font-size2;
+            line-height: $ln-height1;
+            color: $back-color2;
+            font-weight: $fn-weight2;
+            cursor: $cursor1;
+            transition: $transition;
             &:hover {
-              text-decoration: underline;
+              text-decoration: $txt-decor2;
             }
           }
         }
@@ -95,9 +94,9 @@ footer {
       .stayword {
         p {
           font-family: $default-font;
-          font-size: 29px;
-          color: #fff;
-          font-weight: 700;
+          font-size: $font-size3;
+          color:$color1;
+          font-weight: $fn-weight1;
         }
         .emailsearch {
           display: flex;
@@ -105,43 +104,43 @@ footer {
           form {
             .email {
               font-family: $default-font;
-              background-color: transparent;
-              border: 1px solid #bebebe;
-              height: 40px;
-              font-size: 14px;
-              line-height: 14px;
-              color: #696969;
-              border-radius: 5px 0px 0px 5px;
-              padding: 5px 10px;
-              width: 290px;
+              background-color: $back-color4;
+              border:$border1 ;
+              height: $height3;
+              font-size: $font-size4;
+              line-height: $ln-height2;
+              color: $color3;
+              border-radius: $br-radius2;
+              padding: $padding1;
+              width: $width3;
             }
           }
           button {
-            width: 130px;
-            height: 40px;
-            background: #4561ec;
-            border-radius: 0px 4px 4px 0px;
-            border: 1px solid transparent;
-            font-size: 17px;
-            line-height: 17px;
-            color: #fff;
-            font-weight: 600;
-            cursor: pointer;
+            width: $width4;
+            height: $height3;
+            background: $back-color5;
+            border-radius: $br-radius3;
+            border:$border2 ;
+            font-size: $font-size5;
+            line-height: $ln-height3;
+            color:$color1;
+            font-weight: $fn-weight2;
+            cursor: $cursor1;
           }
         }
         h3 {
           font-family: $default-font;
-          width: 297px;
-          font-size: 14px;
-          line-height: 23px;
-          color: #bebec4;
-          margin-top: 35px;
+          width:$width5;
+          font-size: $font-size4;
+          line-height: $ln-height4;
+          color: $color4;
+          margin-top: $margin-top1;
           span{
-            cursor: pointer;
-            color: #7E93FB;
-            transition: .3s ease-in-out;
+            cursor: $cursor1;
+            color: $color2;
+            transition: $transition;
             &:hover{
-                text-decoration: underline;
+                text-decoration: $txt-decor2;
             }
           }
         }
@@ -149,10 +148,10 @@ footer {
       .group {
         p {
             font-family: $default-font;
-            width: 608px;
-            font-size: 14px;
-            line-height: 23px;
-            color: #bebec4;
+            width: $width6;
+            font-size: $font-size4;
+            line-height: $ln-height4;
+            color: $color4;
         }
     }
     .privacy {
@@ -165,34 +164,32 @@ footer {
         align-items: center;
         p {
             font-family: $default-font;
-            font-size: 15px;
-            margin: 0;
-            line-height: 23px;
-            color: #7E93FB;
-            cursor: pointer;
-            transition: .3s ease-in-out;
-            border-right: 1px solid #7E93FB;
-            padding-right: 7px;
+            font-size: $font-size6;
+            margin: $margin1;
+            line-height: $ln-height4;
+            color: $color2;
+            cursor: $cursor1;
+            transition: $transition1 ;
+            border-right: $border3;
+            padding-right: $padding-right1;
             &:hover{
-                text-decoration: underline;
+                text-decoration: $txt-decor2;
             }
         }
         h4 {
             font-family: $default-font;
-            font-size: 15px;
-            line-height: 23px;
-            margin: 0;
-            color: #7E93FB;
-            cursor: pointer;
-            transition: .3s ease-in-out;
+            font-size: $font-size6;
+            line-height: $ln-height4;
+            margin: $margin1;
+            color:$color2;
+            cursor: $cursor1;
+            transition: $transition1;
             &:hover{
-                text-decoration: underline;
+                text-decoration: $txt-decor2;
             }
         }
       }
-      h5 {
-
-      }
+      
     }
     }
   }
