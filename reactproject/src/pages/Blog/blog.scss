@@ -27,6 +27,9 @@
             transition: 0.3s ease-in-out;
           }
           p {
+            @media screen and (max-width: 768px){
+              font-size: 40px;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 61px;
@@ -39,6 +42,11 @@
           }
         }
         h3 {
+          @media screen and (max-width: 768px){
+            width: 300px;
+            padding-top: 16px;
+            padding-left: 21px;
+          }
           font-family: $default-font;
           font-size: 20px;
           color: #fff;
@@ -47,6 +55,9 @@
           padding-top: 30px;
         }
         .explore {
+          @media screen and (max-width: 768px){
+            margin-left: 26px;
+          }
           font-family: $default-font;
           width: 130px;
           height: 40px;
@@ -66,6 +77,10 @@
           }
         }
         h4 {
+          @media screen and (max-width: 768px){
+            padding-left: 24px;
+            width: 300px;
+          }
           font-family: $default-font;
           font-size: 20px;
           color: #fff;
@@ -75,6 +90,10 @@
         }
         form {
           .emails {
+            @media screen and (max-width: 768px){
+              width: 300px;
+              margin-left: 20px;
+            }
             font-family: $default-font;
             background-color: transparent;
             border: 1px solid #bebebe;
@@ -89,6 +108,10 @@
           }
         }
         h5 {
+          @media screen and (max-width: 768px){
+            width: 300px;
+            padding-left: 18px;
+          }
           font-family: $default-font;
           width: 372px;
           font-size: 14px;
@@ -105,6 +128,10 @@
           }
         }
         .submit {
+          @media screen and (max-width: 768px){
+            margin-top: 22px;
+            margin-left: 23px;
+          }
           font-family: $default-font;
           width: 115px;
           height: 42px;
@@ -125,7 +152,9 @@
         }
       }
       .articles-card {
-        
+        @media screen and (max-width: 768px){
+          padding-top: 24px;
+        }
         .artic-img {
           width: 100%;
           height: 280px;
@@ -174,6 +203,9 @@
             padding-top: 10px;
           }
           .articlesthree {
+            @media screen and (max-width: 768px){
+               flex-direction: column;
+            }
             display: flex;
             align-items: center;
             gap: 7px;

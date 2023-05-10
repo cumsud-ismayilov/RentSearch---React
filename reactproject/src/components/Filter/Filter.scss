@@ -2,9 +2,17 @@
 @import "../../style/partials/varaible.scss";
 #filter {
   background-color: #000;
+  padding-bottom: 3rem;
   .container {
     .row {
       .changebutton {
+        @media screen and (max-width: 768px){
+          width: 300px;
+          flex-direction: column;
+          height: auto;
+          padding: 6px;
+          margin: 0 auto;
+        }
         display: flex;
         align-items: center;
         padding: 31px 6px;
@@ -14,6 +22,10 @@
         width: 551px;
         border-radius: 4px;
         .btns {
+          @media screen and (max-width: 768px){
+            width: 100%;
+            text-align: center;
+          }
           color: #4561ec;
           font-family: $default-font;
           font-size: 18px;
@@ -32,11 +44,19 @@
     .container {
       .row {
         .listing-post {
+          @media screen and (max-width: 768px){
+            width: 336px;
+            flex-direction: column;
+            margin: 0 auto;
+          }
             display: flex;
             align-items: center;
             gap: 66px;
             border: 1px solid #373839;
           .post-img {
+            @media screen and (max-width: 768px){
+              width: 100%;
+            }
             width: 535px;
             height: 311px;
             a {
@@ -52,6 +72,9 @@
           }
           .post-text {
             .tittleone {
+              @media screen and (max-width: 768px){
+                flex-direction: column;
+              }
               display: flex;
               align-items: center;
               gap: 6px;
@@ -74,6 +97,11 @@
               }
             }
             h3 {
+              @media screen and (max-width: 768px){
+                font-size: 22px;
+                width: 263px;
+                margin: 0 auto;
+              }
               font-family: $default-font;
               margin: 0;
               color: #fff;
@@ -83,6 +111,10 @@
               padding-top: 10px;
             }
             .tittlethree {
+              @media screen and (max-width: 768px){
+                flex-direction: column;
+                padding-bottom: 8px;
+              }
                 display: flex;
                 align-items: center;
                 gap: 7px;
