@@ -4,9 +4,13 @@ import { Link } from 'react-router-dom';
 import { BsHeadphones } from "react-icons/bs";
 import { RxChevronDown } from "react-icons/rx";
 import { RiArrowUpSLine } from "react-icons/ri";
+import { BsList } from "react-icons/bs";
+import { useState } from 'react';
 const navbar = () => {
+ 
   return (
-    <nav className='desktopnav'>
+   <div>
+     <nav className='desktopnav'>
       <div className='navtop'>
         <div className='container'>
             <div className='row'>
@@ -26,6 +30,13 @@ const navbar = () => {
                         <p>Contact Us</p>
                     </div>
                 </div>
+            </div>
+        </div>
+      </div>
+      <div className='mobile-navtop'>
+      <div className='container'>
+            <div className='row'>
+              
             </div>
         </div>
       </div>
@@ -159,10 +170,35 @@ const navbar = () => {
                    <button>Get in touch</button>
                 </div>
              </div>
+            
            </div>
          </div>
       </div>
     </nav>
+    <nav className='mobilenav'>
+       <div className='nav-top'>
+            <div className='nav-left'>
+              <BsHeadphones size={18} cursor={"pointer"} color='#7E93FB'/>
+              <p>678.421.3000</p>
+              <h4>8am - 5pm EDT</h4>
+            </div>
+            <div className='nav-right'>
+               <h3>Contact Us</h3>
+            </div>
+       </div>
+       <div className='nav-bottom'>
+          <div className='website-logo'>
+             <img src="	https://solutions.rent.com/wp-content/uploads/2022/06/2x-res.png" alt="website-logo" />
+          </div>
+          <div className='website-menu'>
+             <h5 className='clickmenu'><BsList size={23} cursor={"pointer"} color='#fff'/>
+            
+             </h5>
+          </div>
+       </div>
+    </nav>
+   </div>
+     
   )
 }
 

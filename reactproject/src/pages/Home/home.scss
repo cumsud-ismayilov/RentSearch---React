@@ -5,10 +5,13 @@ main {
     background-color: #000;
     .container {
       .row {
+        @media screen and (max-width: 768px) {
+          flex-direction: column-reverse;
+        }
         display: flex;
         align-items: center;
         justify-content: center;
-       
+
         padding-bottom: 70px;
         .marketplace1 {
           .reactword {
@@ -27,6 +30,9 @@ main {
               transition: 0.3s ease-in-out;
             }
             p {
+              @media screen and (max-width: 768px) {
+                font-size: 33px;
+              }
               font-family: $default-font;
               color: #fff;
               font-size: 61px;
@@ -39,6 +45,11 @@ main {
             }
           }
           h1 {
+            @media screen and (max-width: 768px) {
+              padding: 0;
+              font-size: 15px;
+              width: 300px;
+            }
             font-family: "Inter Tight", sans-serif;
             font-size: 19px;
             color: #fff;
@@ -90,7 +101,9 @@ main {
           }
         }
         .bannerround {
-         
+          @media screen and (max-width: 768px) {
+            height: 341px;
+          }
           width: 100%;
           height: 630px;
           img {
@@ -98,19 +111,24 @@ main {
             height: 100%;
             object-fit: cover;
             object-position: center;
-          
           }
         }
       }
     }
   }
   .inner {
+    @media screen and (max-width: 768px) {
+      margin: 0;
+    }
     margin: 60px 0px;
     background-color: #fff;
     .container {
       .row {
         .bestmoment {
           p {
+            @media screen and (max-width: 768px) {
+              font-size: 23px;
+            }
             font-family: $default-font;
             letter-spacing: -0.03em;
             color: #000;
@@ -150,6 +168,10 @@ main {
           flex-direction: column;
           gap: 10px;
           .engine {
+            @media screen and (max-width: 768px) {
+              width: 300px;
+              padding: 10px 15px;
+            }
             background-color: #f4f6ff;
             display: flex;
             gap: 40px;
@@ -157,6 +179,9 @@ main {
             padding: 33px 25px;
 
             p {
+              @media screen and (max-width: 768px) {
+                font-size: 15px;
+              }
               font-family: $default-font;
               font-size: 44px;
               line-height: 44px;
@@ -166,6 +191,9 @@ main {
               margin: 0;
             }
             h3 {
+              @media screen and (max-width: 768px) {
+                font-size: 15px;
+              }
               font-family: $default-font;
               font-size: 22px;
               max-width: 330px;
@@ -189,12 +217,21 @@ main {
         align-items: center;
         justify-content: center;
         .marketbackground {
+          @media screen and (max-width: 768px) {
+            height: 400px;
+          }
           position: relative;
           background-color: #7e93fb;
           width: 100%;
           height: 637px;
           border-radius: 34rem 34rem 0px 0px;
           img {
+            @media screen and (max-width: 768px) {
+              height: 376px;
+              top: 1.5rem;
+              width: 254px;
+              left: 2rem;
+            }
             width: 440px;
             position: absolute;
             height: 605px;
@@ -202,6 +239,11 @@ main {
             left: 5.5rem;
           }
           .services-indicator {
+            @media screen and (max-width: 768px) {
+              width: 200px;
+              padding: 10px 4px;
+              bottom: 5rem;
+            }
             background-color: #4561ec;
             width: 369px;
             position: absolute;
@@ -211,6 +253,9 @@ main {
             bottom: 7.4rem;
 
             p {
+              @media screen and (max-width: 768px) {
+                font-size: 12px;
+              }
               font-family: $default-font;
               color: #fff;
               font-size: 20px;
@@ -218,6 +263,9 @@ main {
               margin: 0;
             }
             h4 {
+              @media screen and (max-width: 768px) {
+                font-size: 12px;
+              }
               font-family: $default-font;
               color: #fff;
               font-size: 44px;
@@ -228,6 +276,11 @@ main {
             }
           }
           .services-indicator2 {
+            @media screen and (max-width: 768px) {
+              width: 200px;
+              padding: 10px 4px;
+              height: 80px;
+            }
             background-color: #fff;
             padding: 22px 14px;
             display: flex;
@@ -236,6 +289,10 @@ main {
             position: absolute;
             bottom: 0rem;
             h2 {
+              @media screen and (max-width: 768px) {
+                font-size: 12px;
+                margin: 0;
+              }
               font-family: $default-font;
               color: #000;
               font-size: 20px;
@@ -243,6 +300,9 @@ main {
               font-weight: 600;
             }
             h5 {
+              @media screen and (max-width: 768px) {
+                font-size: 12px;
+              }
               font-family: $default-font;
               color: #000;
               font-size: 44px;
@@ -254,6 +314,11 @@ main {
           }
         }
         .award {
+          @media screen and (max-width: 768px) {
+            padding-left: 0px;
+            padding-top: 0px;
+            padding-bottom: 3rem;
+          }
           padding-left: 6rem;
           padding-top: 8rem;
           padding-bottom: 9rem;
@@ -270,6 +335,9 @@ main {
               opacity: 0;
             }
             h2 {
+              @media screen and (max-width: 768px) {
+                font-size: 28px;
+              }
               font-family: $default-font;
               color: #fff;
               font-size: 40px;
@@ -286,6 +354,11 @@ main {
             }
           }
           p {
+            @media screen and (max-width: 768px) {
+              padding-top: 0;
+              font-size: 14px;
+              width: 300px;
+            }
             font-family: "Inter Tight", sans-serif;
             font-size: 19px;
             color: #fff;
@@ -295,6 +368,9 @@ main {
             font-weight: 600;
           }
           .target {
+            @media screen and (max-width: 768px) {
+              width: 300px;
+            }
             background-color: #17181c;
             padding: 23px 19px;
             border-left: 8px solid #4561ec;
@@ -309,6 +385,9 @@ main {
               font-weight: 600;
             }
             h4 {
+              @media screen and (max-width: 768px) {
+                width: 284px;
+              }
               font-family: "Inter Tight", sans-serif;
               font-size: 17px;
               color: #fff;
@@ -318,6 +397,9 @@ main {
             }
           }
           h5 {
+            @media screen and (max-width: 768px) {
+              width: 300px;
+            }
             font-family: "Inter Tight", sans-serif;
             font-size: 19px;
             color: #4561ec;
@@ -335,6 +417,9 @@ main {
             }
           }
           h6 {
+            @media screen and (max-width: 768px) {
+              width: 300px;
+            }
             font-family: "Inter Tight", sans-serif;
             font-size: 19px;
             color: #4561ec;
@@ -394,6 +479,9 @@ main {
             transition: 0.3s ease-in-out;
           }
           h3 {
+            @media screen and (max-width: 768px) {
+              font-size: 35px;
+            }
             font-family: $default-font;
             font-size: 47px;
             color: #fff;
@@ -433,6 +521,11 @@ main {
         justify-content: center;
         .driveword {
           p {
+            @media screen and (max-width: 768px) {
+              width: 300px;
+              font-size: 30px;
+              margin: 0;
+            }
             font-family: $default-font;
             font-size: 40px;
             word-spacing: 2px;
@@ -441,6 +534,11 @@ main {
             width: 450px;
           }
           h3 {
+            @media screen and (max-width: 768px) {
+              width: 300px;
+              font-size: 15px;
+              margin: 0;
+            }
             font-family: $default-font;
             font-size: 19px;
             color: #000;
@@ -450,6 +548,10 @@ main {
           }
         }
         .boosted {
+          @media screen and (max-width: 768px) {
+            padding: 40px 8px 67px 9px;
+            height: 580px;
+          }
           padding: 58px 8px 67px 45px;
           background-color: #4561ec;
           position: relative;
@@ -466,6 +568,10 @@ main {
               opacity: 0;
             }
             p {
+              @media screen and (max-width: 768px) {
+                font-size: 25px;
+                width: 293px;
+              }
               font-family: $default-font;
               font-size: 32px;
               color: #fff;
@@ -506,6 +612,11 @@ main {
             }
           }
           img {
+            @media screen and (max-width: 768px) {
+              width: 290px;
+              height: 290px;
+              right: 23px;
+            }
             width: 322px;
             height: 301px;
             position: absolute;
@@ -521,10 +632,17 @@ main {
     padding-bottom: 10rem;
     .container {
       .row {
+        @media screen and (max-width: 768px) {
+          padding-top: 2rem;
+        }
         padding-top: 4rem;
 
         .plans-text {
           p {
+            @media screen and (max-width: 768px) {
+              font-size: 39px;
+              width: 300px;
+            }
             font-family: $default-font;
             font-size: 47px;
             color: #fff;
@@ -577,7 +695,7 @@ main {
             font-size: 28px;
             padding-left: 38px;
             filter: opacity(0.2);
-            span{
+            span {
               color: #fff;
               font-size: 18px;
             }
@@ -604,21 +722,24 @@ main {
       }
     }
   }
-  .clients{
+  .clients {
     background-color: #000;
     padding-bottom: 8rem;
-     .container{
-       .row{
-         .clients-text{
+    .container {
+      .row {
+        .clients-text {
           p {
+            @media screen and (max-width: 768px){
+              font-size: 30px;
+            }
             font-family: $default-font;
             font-size: 47px;
             color: #fff;
             word-spacing: 2px;
             font-weight: 600;
           }
-         }
-         .news-card {
+        }
+        .news-card {
           width: 100%;
 
           img {
@@ -644,13 +765,16 @@ main {
               letter-spacing: 0.01em;
               color: #4561ec;
               cursor: pointer;
-              transition: .3s ease-in-out;
-              &:hover{
+              transition: 0.3s ease-in-out;
+              &:hover {
                 text-decoration: underline;
               }
             }
           }
           h5 {
+            @media screen and (max-width: 768px){
+              font-size: 23px;
+            }
             font-family: $default-font;
             font-size: 28px;
             letter-spacing: -0.03em;
@@ -659,26 +783,30 @@ main {
             font-weight: 600;
             cursor: pointer;
             padding-top: 14px;
-            transition: .3s ease-in-out;
-            &:hover{
+            transition: 0.3s ease-in-out;
+            &:hover {
               color: #4561ec;
             }
           }
         }
-       }
-     }
+      }
+    }
   }
   .browse {
     .container {
       .row {
         .browseword {
+        
           padding: 5rem 5rem 2rem 9rem;
           background-color: #f4f6ff;
-          gap: 94px;
+          gap: 40px;
           display: flex;
           align-items: center;
 
           p {
+            @media screen and (max-width: 768px){
+              font: 23px;
+            }
             font-family: $default-font;
             font-size: 52px;
             word-spacing: 2px;
@@ -711,7 +839,6 @@ main {
             font-size: 13px;
             line-height: 22px;
             color: #000;
-            // letter-spacing: 1px;
             margin: 0;
           }
         }
