@@ -490,7 +490,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="browse">
+      <section className="browse2">
         <div className="container">
           <div className="row">
             <div className="col-xl-12 g-4">
