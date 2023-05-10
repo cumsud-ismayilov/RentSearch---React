@@ -12,8 +12,16 @@ main {
         padding-top: 26px;
 
         .apartment {
+          @media screen and (max-width: 768px) {
+            flex-direction: column;
+            width: 336px;
+            margin: 0 auto;
+          }
           display: flex;
           .apartment-img {
+            @media screen and (max-width: 768px) {
+              width: 100%;
+            }
             width: 654px;
             height: 450px;
             img {
@@ -24,10 +32,18 @@ main {
             }
           }
           .apartment-tittle {
+            @media screen and (max-width: 768px) {
+              width: 336px;
+              padding: 21px;
+            }
             background-color: #17181c;
             width: 654px;
             padding: 56px 42px 56px 52px;
             .text1-date {
+              @media screen and (max-width: 768px) {
+                flex-direction: column;
+                gap: 11px;
+              }
               display: flex;
               align-items: baseline;
               justify-content: space-between;
@@ -53,6 +69,10 @@ main {
               }
             }
             h2 {
+              @media screen and (max-width: 768px) {
+                width: 300px;
+                font-size: 37px;
+              }
               font-family: $default-font;
               color: #fff;
               font-size: 45px;
@@ -104,6 +124,11 @@ main {
         padding-top: 3rem;
         .post-content {
           p {
+            @media screen and (max-width: 768px) {
+              font-size: 17px;
+              width: 300px;
+              margin: 0 auto;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 19px;
@@ -113,8 +138,17 @@ main {
           }
         }
         .photography {
+          @media screen and (max-width: 768px) {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+          }
           padding-top: 31px;
           h3 {
+            @media screen and (max-width: 768px) {
+              width: 300px;
+              font-size: 21px;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 39px;
@@ -122,6 +156,10 @@ main {
             margin: 0;
           }
           h4 {
+            @media screen and (max-width: 768px){
+              width: 300px;
+              font-size: 18px;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 19px;
@@ -130,6 +168,9 @@ main {
           }
         }
         .content-img {
+          @media screen and (max-width: 768px){
+            display: none;
+          }
           position: relative;
           width: 100%;
           img {
@@ -175,6 +216,9 @@ main {
           }
         }
         .guided {
+          @media screen and (max-width: 768px){
+            display: none;
+          }
           background-color: #4561ec;
           border-radius: 4px;
           padding: 41px 32px;
@@ -206,6 +250,9 @@ main {
           }
         }
         .stay-touch {
+          @media screen and (max-width: 768px){
+            display: none;
+          }
           margin-top: 40px;
           background-color: #fff;
           border-radius: 4px;
@@ -280,8 +327,17 @@ main {
           }
         }
         .advertising {
+          @media screen and (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
           padding-top: 31px;
           h3 {
+            @media screen and (max-width: 768px) {
+              width: 300px;
+              font-size: 21px;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 39px;
@@ -289,6 +345,10 @@ main {
             margin: 0;
           }
           h4 {
+            @media screen and (max-width: 768px){
+              width: 300px;
+              font-size: 18px;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 19px;
@@ -302,8 +362,17 @@ main {
           }
         }
         .lifetime {
+          @media screen and (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
           padding-top: 31px;
           h3 {
+            @media screen and (max-width: 768px) {
+              width: 300px;
+              font-size: 21px;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 39px;
@@ -311,6 +380,10 @@ main {
             margin: 0;
           }
           h4 {
+            @media screen and (max-width: 768px){
+              width: 300px;
+              font-size: 18px;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 19px;
@@ -318,6 +391,10 @@ main {
             padding-top: 36px;
           }
           h5 {
+            @media screen and (max-width: 768px){
+              width: 300px;
+              font-size: 18px;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 19px;
@@ -326,8 +403,17 @@ main {
           }
         }
         .website {
+          @media screen and (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
           padding-top: 31px;
           h3 {
+            @media screen and (max-width: 768px) {
+              width: 300px;
+              font-size: 21px;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 39px;
@@ -335,6 +421,10 @@ main {
             margin: 0;
           }
           h4 {
+            @media screen and (max-width: 768px){
+              width: 300px;
+              font-size: 18px;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 19px;
@@ -348,8 +438,17 @@ main {
           }
         }
         .invest {
+          @media screen and (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
           padding-top: 31px;
           h3 {
+            @media screen and (max-width: 768px) {
+              width: 300px;
+              font-size: 21px;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 39px;
@@ -357,6 +456,10 @@ main {
             margin: 0;
           }
           h4 {
+            @media screen and (max-width: 768px) {
+              width: 300px;
+              font-size: 21px;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 19px;
@@ -370,8 +473,17 @@ main {
           }
         }
         .photography {
+          @media screen and (max-width: 768px) {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+          }
           padding-top: 31px;
           h3 {
+            @media screen and (max-width: 768px) {
+              width: 300px;
+              font-size: 21px;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 39px;
@@ -379,6 +491,10 @@ main {
             margin: 0;
           }
           h4 {
+            @media screen and (max-width: 768px){
+              width: 300px;
+              font-size: 18px;
+            }
             font-family: $default-font;
             color: #fff;
             font-size: 19px;
@@ -386,10 +502,9 @@ main {
             padding-top: 36px;
           }
         }
-      
       }
-      .row{
-        .container{
+      .row {
+        .container {
           .post-content {
             display: flex;
             align-items: center;
