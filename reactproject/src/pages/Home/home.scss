@@ -729,7 +729,7 @@ main {
       .row {
         .clients-text {
           p {
-            @media screen and (max-width: 768px){
+            @media screen and (max-width: 768px) {
               font-size: 30px;
             }
             font-family: $default-font;
@@ -772,7 +772,7 @@ main {
             }
           }
           h5 {
-            @media screen and (max-width: 768px){
+            @media screen and (max-width: 768px) {
               font-size: 23px;
             }
             font-family: $default-font;
@@ -792,11 +792,14 @@ main {
       }
     }
   }
-  .browse {
+  .browse1 {
     .container {
       .row {
         .browseword {
-        
+          @media screen and (max-width: 768px){
+            padding: 2rem 5rem 2rem 6rem;
+            flex-direction: column;
+          }
           padding: 5rem 5rem 2rem 9rem;
           background-color: #f4f6ff;
           gap: 40px;
@@ -804,7 +807,10 @@ main {
           align-items: center;
 
           p {
-       
+            @media screen and (max-width: 768px){
+              width: 300px;
+              font-size: 30px;
+            }
             font-family: $default-font;
             font-size: 52px;
             word-spacing: 2px;
@@ -817,14 +823,26 @@ main {
             flex-direction: column;
             gap: 66px;
             .img1 {
+              @media screen and (max-width: 768px){
+                gap: 50px;
+              }
               display: flex;
               align-items: center;
               gap: 97px;
+              img{
+                width: 100px;
+              }
             }
             .img2 {
+              @media screen and (max-width: 768px){
+                gap: 50px;
+              }
               display: flex;
               align-items: center;
               gap: 97px;
+              img{
+                width: 100px;
+              }
             }
           }
         }

@@ -23,6 +23,9 @@ footer {
           padding-top: $pad-top1;
         }
         .pageicon {
+          @media screen and (max-width: 768px){
+            padding-top: 1rem;
+          }
           display: flex;
           align-items: center;
           gap: 13px;
@@ -99,6 +102,11 @@ footer {
           font-weight: $fn-weight1;
         }
         .emailsearch {
+          @media screen and (max-width: 768px){
+            flex-direction: column;
+            gap: 15px;
+            align-items: flex-start;
+          }
           display: flex;
           align-items: center;
           form {
@@ -147,6 +155,9 @@ footer {
       }
       .group {
         p {
+          @media screen and (max-width: 768px){
+            width: 300px;
+          }
             font-family: $default-font;
             width: $width6;
             font-size: $font-size4;
@@ -155,6 +166,11 @@ footer {
         }
     }
     .privacy {
+      @media screen and (max-width: 768px){
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 19px;
+      }
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -163,6 +179,9 @@ footer {
         gap: 10px;
         align-items: center;
         p {
+          @media screen and (max-width: 768px){
+            font-size: 12px;
+          }
             font-family: $default-font;
             font-size: $font-size6;
             margin: $margin1;
@@ -177,6 +196,9 @@ footer {
             }
         }
         h4 {
+          @media screen and (max-width: 768px){
+            font-size: 12px;
+          }
             font-family: $default-font;
             font-size: $font-size6;
             line-height: $ln-height4;

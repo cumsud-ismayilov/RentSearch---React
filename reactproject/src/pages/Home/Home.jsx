@@ -317,7 +317,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="browse">
+      <section className="browse1">
         <div className="container">
           <div className="row">
             <div className="col-xl-12 g-4">
