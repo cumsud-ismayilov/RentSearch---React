@@ -647,11 +647,10 @@
         object-position: center;
       }
     }
-    .website-menu{
-       h5{
-       
-       }
-      
+    .menu-icon{
+      .fixed-top{
+          position: static; 
+      }
     }
   }
 }
