@@ -148,7 +148,7 @@ const Detail = () => {
                    <h2><Link to='/blog'><BsArrowLeft size={17} cursor={"pointer"} color='#fff'/></Link></h2>
                    <h3>Prev</h3>
                    <h3>Next</h3>
-                   <h2><Link to='/home'><BsArrowRight size={17} cursor={"pointer"} color='#fff'/></Link></h2>
+                   <h2><Link to='/about'><BsArrowRight size={17} cursor={"pointer"} color='#fff'/></Link></h2>
                 </div>
              </div>
              </div>

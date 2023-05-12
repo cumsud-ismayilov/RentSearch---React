@@ -1,0 +1,12 @@
+@mixin Filter-Flex($items,$gaps){
+    display: flex;
+    align-items: $items;
+    gap: $gaps;
+}
+
+@mixin Navbar-flex($item1,$justify,$gap1){
+    display: flex;
+    align-items: $item1;
+    justify-content: $justify;
+    gap: $gap1;
+}

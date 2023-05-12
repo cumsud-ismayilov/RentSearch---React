@@ -1,6 +1,6 @@
 @import "../../../style/global.scss";
 @import "../../../style/partials/varaible.scss";
-
+@import "../../../style/partials/mixin.scss";
 .desktopnav {
   @media screen and (max-width: 768px) {
     display: $disply1;
@@ -18,10 +18,7 @@
           display: flex;
           gap: 11px;
           .leftone {
-            display: flex;
-            align-items: flex-start;
-            justify-content: flex-start;
-            gap: 11px;
+          @include Navbar-flex(flex-start,flex-start,11px);
             border-right: $border6;
             padding-right: $padding-right2;
             p {

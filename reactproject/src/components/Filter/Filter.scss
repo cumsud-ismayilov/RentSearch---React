@@ -1,5 +1,6 @@
 @import "../../style/global.scss";
 @import "../../style/partials/varaible.scss";
+@import "../../style/partials/mixin.scss";
 #filter {
   background-color: $back-color6;
   padding-bottom: $padding_bottom2;
@@ -13,12 +14,11 @@
           padding: $padding2;
           margin: $margin2;
         }
-        display: flex;
-        align-items: center;
+        @include Filter-Flex(center,6px,);
         padding:$padding3 ;
         background-color: $back-color5;
         height: $height6;
-        gap: 6px;
+       
         width:$width9 ;
         border-radius: $br-radius4;
         .btns {
