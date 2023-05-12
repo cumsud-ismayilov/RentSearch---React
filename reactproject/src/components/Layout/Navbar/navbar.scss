@@ -3,17 +3,17 @@
 
 .desktopnav {
   @media screen and (max-width: 768px) {
-    display: none;
+    display: $disply1;
   }
-  width: 100%;
+  width: $width7;
   .navtop {
     @media screen and (max-width: 768px) {
-      display: none;
+      display: $disply1;
     }
-    background: #17181c;
+    background:$back-color8;
     .container {
       .row {
-        padding-top: 0;
+        padding-top: $pad-top7;
         .navleft {
           display: flex;
           gap: 11px;
@@ -22,20 +22,20 @@
             align-items: flex-start;
             justify-content: flex-start;
             gap: 11px;
-            border-right: 2px solid #414249;
-            padding-right: 14px;
+            border-right: $border6;
+            padding-right: $padding-right2;
             p {
-              color: #7e93fb;
+              color: $color2;
               font-family: $default-font;
-              font-size: 14px;
-              cursor: pointer;
-              line-height: 16px;
-              font-weight: 500;
-              margin: 0;
-              padding-top: 3px;
-              transition: 0.3s ease-in-out;
+              font-size: $font-size4;
+              cursor: $cursor1;
+              line-height: $ln-height6;
+              font-weight: $fn-weight3;
+              margin: $margin1;
+              padding-top: $pad-top8;
+              transition: $transition;
               &:hover {
-                text-decoration: underline;
+                text-decoration: $txt-decor2;
               }
             }
           }

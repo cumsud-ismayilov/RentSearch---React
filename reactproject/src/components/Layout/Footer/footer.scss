@@ -24,7 +24,7 @@ footer {
         }
         .pageicon {
           @media screen and (max-width: 768px){
-            padding-top: 1rem;
+            padding-top: $pad-top6;
           }
           display: flex;
           align-items: center;
@@ -156,7 +156,7 @@ footer {
       .group {
         p {
           @media screen and (max-width: 768px){
-            width: 300px;
+            width: $width8;
           }
             font-family: $default-font;
             width: $width6;
@@ -180,7 +180,7 @@ footer {
         align-items: center;
         p {
           @media screen and (max-width: 768px){
-            font-size: 12px;
+            font-size: $font-size12;
           }
             font-family: $default-font;
             font-size: $font-size6;
@@ -197,7 +197,7 @@ footer {
         }
         h4 {
           @media screen and (max-width: 768px){
-            font-size: 12px;
+            font-size: $font-size12
           }
             font-family: $default-font;
             font-size: $font-size6;

@@ -3,44 +3,44 @@
 
 .cards-part{
   .row{
-    padding-top: 2rem;
-    border-bottom: 2px solid #abb8c3;
+    padding-top: $pad-top3;
+    border-bottom: $border4;
        .dev-cards {
-        width: 100%;
+        width: $width7;
         img {
-          width: 100%;
-          height: 389px;
-          object-fit: cover;
-          object-position: center;
-          cursor: pointer;
-          transition: .3s ease-in-out;
-          filter: brightness(1);
+          width: $width7;
+          height: $height4;
+          object-fit: $object-fit;
+          object-position: $obj-post;
+          cursor: $cursor1;
+          transition: $transition1;
+          filter: $filter1;
           &:hover{
-            filter: brightness(0.5);
+            filter:$filter2 ;
           }
         }
         p {
           font-family: $default-font;
-          font-weight: 500;
-          font-size: 33px;
-          letter-spacing: -0.03em;
-          color: #fff;
-          margin: 0;
-          padding-top: 10px;
-          cursor: pointer;
-          transition: .3s ease-in-out;
+          font-weight: $fn-weight3;
+          font-size: $font-size7;
+          letter-spacing:$lt-spacing1 ;
+          color: $color1;
+          margin: $margin1;
+          padding-top: $pad-top4;
+          cursor: $cursor1;
+          transition: $transition1;
           &:hover{
-              color: #7E93FB;
+              color: $color2;
           }
         }
         h3 {
           font-family: $default-font;
-          font-weight: 500;
-          font-size: 19px;
-          letter-spacing: -0.03em;
-          color: #fff;
-          margin: 0;
-          cursor: alias;
+          font-weight: $fn-weight3;
+          font-size: $font-size8;
+          letter-spacing: $lt-spacing1;
+          color:$color1;
+          margin: $margin1;
+          cursor: $cursor2;
       
         }
       }
