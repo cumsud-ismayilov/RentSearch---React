@@ -50,7 +50,7 @@ const Blog = () => {
           </div>
         </div>
       </section>
-      <Isotops />
+      {/* <Isotops /> */}
     </div>
   );
 };

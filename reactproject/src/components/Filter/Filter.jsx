@@ -1,6 +1,6 @@
 import React ,{useEffect,useRef} from 'react';
 import './Filter.scss';
-import Isotope from "isotope-layout";
+
 import { Link } from 'react-router-dom';
 
 
@@ -12,7 +12,7 @@ const Filter = () => {
 
   // initialize an Isotope object with configs
   React.useEffect(() => {
-    isotope.current = new Isotope(".filter-container", {
+    isotope.current = new isotope(".filter-container", {
       itemSelector: ".filter-item",
       layoutMode: "fitRows",
     });
